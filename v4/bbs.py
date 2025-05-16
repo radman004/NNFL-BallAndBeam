@@ -56,7 +56,8 @@ class BallAndBeamSystem:
             State derivatives [velocity, acceleration]
         """
         r, r_dot = state
-        
+        r = np.clip(r, -1, 1)
+        r_dot = np.clip(r_dot, -1, 1)
         # Nonlinear equation of motion for the ball
         inertia_term = self.J / (self.m * self.R**2) + 1
         r_ddot = (self.g * np.sin(alpha) - r * (alpha**2)) / inertia_term
@@ -121,35 +122,67 @@ class EnhancedFuzzyController:
         error = ctrl.Antecedent(np.linspace(-1, 1, 1000), 'error')
         d_error = ctrl.Antecedent(np.linspace(-1, 1, 1000), 'delta_error')
         angle = ctrl.Consequent(np.linspace(-0.4, 0.4, 1000), 'angle')
+
+        params =  [ 0.602,  0.951, -0.173, -0.575,  0.673, -0.841, 0.914, -0.364, -0.46, 0.138, -0.317, -0.298,  0.077, -0.302, 0.073]
+
+        e_NL_left, e_NL_peak, e_ZE_peak, e_PL_peak, e_PL_right, \
+        de_NL_left, de_NL_peak, de_ZE_peak, de_PL_peak, de_PL_right, \
+        o_NL_left, o_NL_peak, o_ZE_peak, o_PL_peak, o_PL_right = params
+        # # Enhanced membership functions with better overlap and finer control
+        # # Error membership functions
+        # error['NB'] = fuzz.trimf(error.universe, [-1.0, -1.0, -0.5])     # Negative Big
+        # error['NM'] = fuzz.trimf(error.universe, [-0.75, -0.5, -0.25])   # Negative Medium
+        # error['NS'] = fuzz.trimf(error.universe, [-0.4, -0.2, -0.05])    # Negative Small
+        # error['ZE'] = fuzz.trimf(error.universe, [-0.15, 0, 0.15])       # Zero (narrower)
+        # error['PS'] = fuzz.trimf(error.universe, [0.05, 0.2, 0.4])       # Positive Small
+        # error['PM'] = fuzz.trimf(error.universe, [0.25, 0.5, 0.75])      # Positive Medium
+        # error['PB'] = fuzz.trimf(error.universe, [0.5, 1.0, 1.0])        # Positive Big
         
-        # Enhanced membership functions with better overlap and finer control
-        # Error membership functions
-        error['NB'] = fuzz.trimf(error.universe, [-1.0, -1.0, -0.5])     # Negative Big
-        error['NM'] = fuzz.trimf(error.universe, [-0.75, -0.5, -0.25])   # Negative Medium
-        error['NS'] = fuzz.trimf(error.universe, [-0.4, -0.2, -0.05])    # Negative Small
-        error['ZE'] = fuzz.trimf(error.universe, [-0.15, 0, 0.15])       # Zero (narrower)
-        error['PS'] = fuzz.trimf(error.universe, [0.05, 0.2, 0.4])       # Positive Small
-        error['PM'] = fuzz.trimf(error.universe, [0.25, 0.5, 0.75])      # Positive Medium
-        error['PB'] = fuzz.trimf(error.universe, [0.5, 1.0, 1.0])        # Positive Big
+        # # Delta error membership functions
+        # d_error['NB'] = fuzz.trimf(d_error.universe, [-1.0, -1.0, -0.5]) # Negative Big
+        # d_error['NM'] = fuzz.trimf(d_error.universe, [-0.75, -0.5, -0.25]) # Negative Medium
+        # d_error['NS'] = fuzz.trimf(d_error.universe, [-0.4, -0.2, -0.05]) # Negative Small
+        # d_error['ZE'] = fuzz.trimf(d_error.universe, [-0.15, 0, 0.15])   # Zero
+        # d_error['PS'] = fuzz.trimf(d_error.universe, [0.05, 0.2, 0.4])   # Positive Small
+        # d_error['PM'] = fuzz.trimf(d_error.universe, [0.25, 0.5, 0.75])  # Positive Medium
+        # d_error['PB'] = fuzz.trimf(d_error.universe, [0.5, 1.0, 1.0])    # Positive Big
         
-        # Delta error membership functions
-        d_error['NB'] = fuzz.trimf(d_error.universe, [-1.0, -1.0, -0.5]) # Negative Big
-        d_error['NM'] = fuzz.trimf(d_error.universe, [-0.75, -0.5, -0.25]) # Negative Medium
-        d_error['NS'] = fuzz.trimf(d_error.universe, [-0.4, -0.2, -0.05]) # Negative Small
-        d_error['ZE'] = fuzz.trimf(d_error.universe, [-0.15, 0, 0.15])   # Zero
-        d_error['PS'] = fuzz.trimf(d_error.universe, [0.05, 0.2, 0.4])   # Positive Small
-        d_error['PM'] = fuzz.trimf(d_error.universe, [0.25, 0.5, 0.75])  # Positive Medium
-        d_error['PB'] = fuzz.trimf(d_error.universe, [0.5, 1.0, 1.0])    # Positive Big
-        
-        # Angle membership functions
-        angle['NB'] = fuzz.trimf(angle.universe, [-0.4, -0.4, -0.25])    # Negative Big
-        angle['NM'] = fuzz.trimf(angle.universe, [-0.3, -0.2, -0.1])     # Negative Medium
-        angle['NS'] = fuzz.trimf(angle.universe, [-0.15, -0.075, 0])     # Negative Small
-        angle['ZE'] = fuzz.trimf(angle.universe, [-0.05, 0, 0.05])       # Zero
-        angle['PS'] = fuzz.trimf(angle.universe, [0, 0.075, 0.15])       # Positive Small
-        angle['PM'] = fuzz.trimf(angle.universe, [0.1, 0.2, 0.3])        # Positive Medium
-        angle['PB'] = fuzz.trimf(angle.universe, [0.25, 0.4, 0.4])       # Positive Big
-        
+        # # Angle membership functions
+        # angle['NB'] = fuzz.trimf(angle.universe, [-0.4, -0.4, -0.25])    # Negative Big
+        # angle['NM'] = fuzz.trimf(angle.universe, [-0.3, -0.2, -0.1])     # Negative Medium
+        # angle['NS'] = fuzz.trimf(angle.universe, [-0.15, -0.075, 0])     # Negative Small
+        # angle['ZE'] = fuzz.trimf(angle.universe, [-0.05, 0, 0.05])       # Zero
+        # angle['PS'] = fuzz.trimf(angle.universe, [0, 0.075, 0.15])       # Positive Small
+        # angle['PM'] = fuzz.trimf(angle.universe, [0.1, 0.2, 0.3])        # Positive Medium
+        # angle['PB'] = fuzz.trimf(angle.universe, [0.25, 0.4, 0.4])       # Positive Big
+
+        # Error membership functions (cover full universe)
+        error['NB'] = fuzz.trimf(error.universe, sorted([-1.0, -1.0, e_NL_peak]))
+        error['NM'] = fuzz.trimf(error.universe, sorted([e_NL_left, e_NL_peak, e_ZE_peak]))
+        error['NS'] = fuzz.trimf(error.universe, sorted([e_NL_peak, e_ZE_peak, 0.0]))
+        error['ZE'] = fuzz.trimf(error.universe, sorted([e_NL_peak, e_ZE_peak, e_PL_peak]))
+        error['PS'] = fuzz.trimf(error.universe, sorted([0.0, e_ZE_peak, e_PL_peak]))
+        error['PM'] = fuzz.trimf(error.universe, sorted([e_ZE_peak, e_PL_peak, e_PL_right]))
+        error['PB'] = fuzz.trimf(error.universe, sorted([e_PL_peak, 1.0, 1.0]))
+
+        # Delta error membership functions (cover full universe)
+        d_error['NB'] = fuzz.trimf(d_error.universe, sorted([-1.0, -1.0, de_NL_peak]))
+        d_error['NM'] = fuzz.trimf(d_error.universe, sorted([de_NL_left, de_NL_peak, de_ZE_peak]))
+        d_error['NS'] = fuzz.trimf(d_error.universe, sorted([de_NL_peak, de_ZE_peak, 0.0]))
+        d_error['ZE'] = fuzz.trimf(d_error.universe, sorted([de_NL_peak, de_ZE_peak, de_PL_peak]))
+        d_error['PS'] = fuzz.trimf(d_error.universe, sorted([0.0, de_ZE_peak, de_PL_peak]))
+        d_error['PM'] = fuzz.trimf(d_error.universe, sorted([de_ZE_peak, de_PL_peak, de_PL_right]))
+        d_error['PB'] = fuzz.trimf(d_error.universe, sorted([de_PL_peak, 1.0, 1.0]))
+
+        # Angle membership functions (cover full universe)
+        angle['NB'] = fuzz.trimf(angle.universe, sorted([-0.4, -0.4, o_NL_peak]))
+        angle['NM'] = fuzz.trimf(angle.universe, sorted([o_NL_left, o_NL_peak, o_ZE_peak]))
+        angle['NS'] = fuzz.trimf(angle.universe, sorted([o_NL_peak, o_ZE_peak, 0.0]))
+        angle['ZE'] = fuzz.trimf(angle.universe, sorted([o_NL_peak, o_ZE_peak, o_PL_peak]))
+        angle['PS'] = fuzz.trimf(angle.universe, sorted([0.0, o_ZE_peak, o_PL_peak]))
+        angle['PM'] = fuzz.trimf(angle.universe, sorted([o_ZE_peak, o_PL_peak, o_PL_right]))
+        angle['PB'] = fuzz.trimf(angle.universe, sorted([o_PL_peak, 0.4, 0.4]))
+
         # Enhanced rule base with improved braking behavior
         rules = [
             # NB (Ball far to right of setpoint)
@@ -654,6 +687,19 @@ def run_comprehensive_tests(fuzzy_controller, pid_controller):
     print_comparison_table(results)
     
     return results
+
+def compute_metrics(t, positions, setpoint):
+        """
+        Compute overshoot, settling time, and steady-state error from simulation results.
+        """
+        settling_time = calculate_settling_time(t, positions, setpoint)
+        overshoot = calculate_overshoot(positions, setpoint)
+        steady_state_error = abs(positions[-1] - setpoint)
+        return {
+            "Settling Time": settling_time,
+            "Overshoot": overshoot,
+            "Steady-State Error": steady_state_error
+        }
 
 def print_comparison_table(results):
     """

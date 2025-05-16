@@ -1,0 +1,1025 @@
+2025-05-16 02:04:11,260 - Starting ball and beam simulation
+2025-05-16 02:04:11,973 - 
+=== Test Case: Standard Case ===
+2025-05-16 02:04:11,974 - 
+Running simulation with ImprovedFuzzyController...
+2025-05-16 02:04:13,529 - Time: 0.40s | Pos: 0.0407m | Error: 0.4593m | Vel: 0.2007m/s
+2025-05-16 02:04:13,530 - Scaled Error: 0.9185 | Scaled dError: -0.2508
+2025-05-16 02:04:13,571 - Control output: Beam angle = 0.0638 rad
+
+2025-05-16 02:04:15,147 - Time: 0.77s | Pos: 0.1386m | Error: 0.3614m | Vel: 0.3096m/s
+2025-05-16 02:04:15,148 - Scaled Error: 0.7229 | Scaled dError: -0.3870
+2025-05-16 02:04:15,199 - Control output: Beam angle = 0.0181 rad
+
+2025-05-16 02:04:16,409 - Time: 0.96s | Pos: 0.1966m | Error: 0.3034m | Vel: 0.3181m/s
+2025-05-16 02:04:16,410 - Scaled Error: 0.6068 | Scaled dError: -0.3977
+2025-05-16 02:04:16,431 - Control output: Beam angle = 0.0012 rad
+
+2025-05-16 02:04:17,777 - Time: 1.43s | Pos: 0.3478m | Error: 0.1522m | Vel: 0.3220m/s
+2025-05-16 02:04:17,777 - Scaled Error: 0.3043 | Scaled dError: -0.4025
+2025-05-16 02:04:17,813 - Control output: Beam angle = -0.0051 rad
+
+2025-05-16 02:04:19,058 - Time: 1.68s | Pos: 0.4282m | Error: 0.0718m | Vel: 0.3093m/s
+2025-05-16 02:04:19,058 - Scaled Error: 0.1436 | Scaled dError: -0.3867
+2025-05-16 02:04:19,081 - Control output: Beam angle = 0.0037 rad
+
+2025-05-16 02:04:20,597 - Time: 1.91s | Pos: 0.5004m | Error: -0.0004m | Vel: 0.3185m/s
+2025-05-16 02:04:20,598 - Scaled Error: -0.0008 | Scaled dError: -0.3981
+2025-05-16 02:04:20,630 - Control output: Beam angle = 0.0011 rad
+
+2025-05-16 02:04:21,886 - Time: 2.32s | Pos: 0.6307m | Error: -0.1307m | Vel: 0.3182m/s
+2025-05-16 02:04:21,886 - Scaled Error: -0.2615 | Scaled dError: -0.3977
+2025-05-16 02:04:21,916 - Control output: Beam angle = 0.0021 rad
+
+2025-05-16 02:04:23,379 - Time: 2.55s | Pos: 0.7030m | Error: -0.2030m | Vel: 0.3119m/s
+2025-05-16 02:04:23,379 - Scaled Error: -0.4060 | Scaled dError: -0.3898
+2025-05-16 02:04:23,422 - Control output: Beam angle = -0.0352 rad
+
+2025-05-16 02:04:24,843 - Time: 2.91s | Pos: 0.7801m | Error: -0.2801m | Vel: 0.0636m/s
+2025-05-16 02:04:24,844 - Scaled Error: -0.5602 | Scaled dError: -0.0795
+2025-05-16 02:04:24,875 - Control output: Beam angle = -0.1478 rad
+
+2025-05-16 02:04:26,417 - Time: 2.97s | Pos: 0.7819m | Error: -0.2819m | Vel: 0.0047m/s
+2025-05-16 02:04:26,417 - Scaled Error: -0.5639 | Scaled dError: -0.0059
+2025-05-16 02:04:26,445 - Control output: Beam angle = -0.1714 rad
+
+2025-05-16 02:04:27,680 - Time: 3.21s | Pos: 0.7488m | Error: -0.2488m | Vel: -0.2506m/s
+2025-05-16 02:04:27,680 - Scaled Error: -0.4976 | Scaled dError: 0.3133
+2025-05-16 02:04:27,710 - Control output: Beam angle = -0.0931 rad
+
+2025-05-16 02:04:29,079 - Time: 3.50s | Pos: 0.6633m | Error: -0.1633m | Vel: -0.3120m/s
+2025-05-16 02:04:29,079 - Scaled Error: -0.3265 | Scaled dError: 0.3900
+2025-05-16 02:04:29,123 - Control output: Beam angle = 0.0100 rad
+
+2025-05-16 02:04:30,468 - Time: 3.84s | Pos: 0.5601m | Error: -0.0601m | Vel: -0.2937m/s
+2025-05-16 02:04:30,469 - Scaled Error: -0.1201 | Scaled dError: 0.3672
+2025-05-16 02:04:30,495 - Control output: Beam angle = 0.0064 rad
+
+2025-05-16 02:04:31,740 - Time: 3.93s | Pos: 0.5319m | Error: -0.0319m | Vel: -0.2874m/s
+2025-05-16 02:04:31,741 - Scaled Error: -0.0637 | Scaled dError: 0.3592
+2025-05-16 02:04:31,775 - Control output: Beam angle = 0.0122 rad
+
+2025-05-16 02:04:32,993 - Time: 4.39s | Pos: 0.4119m | Error: 0.0881m | Vel: -0.2405m/s
+2025-05-16 02:04:32,994 - Scaled Error: 0.1761 | Scaled dError: 0.3006
+2025-05-16 02:04:33,013 - Control output: Beam angle = 0.0105 rad
+
+2025-05-16 02:04:34,245 - Time: 0.05s | Pos: 0.0006m | Error: 0.4994m | Vel: 0.0250m/s
+2025-05-16 02:04:34,246 - Scaled Error: 0.9988 | Scaled dError: -0.0312
+2025-05-16 02:04:34,285 - Control output: Beam angle = 0.0718 rad
+
+2025-05-16 02:04:35,665 - Time: 0.55s | Pos: 0.0748m | Error: 0.4252m | Vel: 0.2576m/s
+2025-05-16 02:04:35,665 - Scaled Error: 0.8504 | Scaled dError: -0.3220
+2025-05-16 02:04:35,707 - Control output: Beam angle = 0.0464 rad
+
+2025-05-16 02:04:37,158 - Time: 1.05s | Pos: 0.2265m | Error: 0.2735m | Vel: 0.3186m/s
+2025-05-16 02:04:37,158 - Scaled Error: 0.5470 | Scaled dError: -0.3983
+2025-05-16 02:04:37,199 - Control output: Beam angle = 0.0006 rad
+
+2025-05-16 02:04:38,399 - Time: 1.55s | Pos: 0.3866m | Error: 0.1134m | Vel: 0.3132m/s
+2025-05-16 02:04:38,400 - Scaled Error: 0.2269 | Scaled dError: -0.3915
+2025-05-16 02:04:38,420 - Control output: Beam angle = -0.0124 rad
+
+2025-05-16 02:04:39,856 - Time: 2.05s | Pos: 0.5438m | Error: -0.0438m | Vel: 0.3192m/s
+2025-05-16 02:04:39,857 - Scaled Error: -0.0876 | Scaled dError: -0.3989
+2025-05-16 02:04:39,876 - Control output: Beam angle = -0.0008 rad
+
+2025-05-16 02:04:41,232 - Time: 2.55s | Pos: 0.7033m | Error: -0.2033m | Vel: 0.3116m/s
+2025-05-16 02:04:41,233 - Scaled Error: -0.4065 | Scaled dError: -0.3896
+2025-05-16 02:04:41,273 - Control output: Beam angle = -0.0355 rad
+
+2025-05-16 02:04:42,540 - Time: 3.05s | Pos: 0.7780m | Error: -0.2780m | Vel: -0.0993m/s
+2025-05-16 02:04:42,541 - Scaled Error: -0.5559 | Scaled dError: 0.1241
+2025-05-16 02:04:42,561 - Control output: Beam angle = -0.1710 rad
+
+2025-05-16 02:04:43,806 - Time: 3.55s | Pos: 0.6463m | Error: -0.1463m | Vel: -0.3087m/s
+2025-05-16 02:04:43,807 - Scaled Error: -0.2926 | Scaled dError: 0.3859
+2025-05-16 02:04:43,827 - Control output: Beam angle = 0.0096 rad
+
+2025-05-16 02:04:45,193 - Time: 4.05s | Pos: 0.4991m | Error: 0.0009m | Vel: -0.2765m/s
+2025-05-16 02:04:45,193 - Scaled Error: 0.0019 | Scaled dError: 0.3456
+2025-05-16 02:04:45,213 - Control output: Beam angle = 0.0145 rad
+
+2025-05-16 02:04:46,599 - Time: 4.55s | Pos: 0.3733m | Error: 0.1267m | Vel: -0.2345m/s
+2025-05-16 02:04:46,600 - Scaled Error: 0.2534 | Scaled dError: 0.2931
+2025-05-16 02:04:46,644 - Control output: Beam angle = 0.0017 rad
+
+2025-05-16 02:04:47,931 - 
+Performance Metrics:
+2025-05-16 02:04:47,932 - Settling Time: 4.990 s
+2025-05-16 02:04:47,932 - Overshoot: 56.39%
+2025-05-16 02:04:47,932 - Steady-State Error: 0.232055 m
+2025-05-16 02:05:21,383 - 
+Running simulation with OptimizedPIDController...
+2025-05-16 02:05:21,390 - Time: 0.00s | Pos: 0.0000m | Error: 0.5000m | Vel: 0.0029m/s
+2025-05-16 02:05:21,390 - P term: 0.3500 | I term: 0.0015 | D term: -0.0035
+2025-05-16 02:05:21,391 - PID output: Beam angle = 0.3479 rad
+
+2025-05-16 02:05:21,396 - Time: 0.01s | Pos: 0.0000m | Error: 0.5000m | Vel: 0.0126m/s
+2025-05-16 02:05:21,397 - P term: 0.3500 | I term: 0.0027 | D term: -0.0151
+2025-05-16 02:05:21,397 - PID output: Beam angle = 0.3376 rad
+
+2025-05-16 02:05:21,404 - Time: 0.02s | Pos: 0.0005m | Error: 0.4995m | Vel: 0.0446m/s
+2025-05-16 02:05:21,405 - P term: 0.3497 | I term: 0.0040 | D term: -0.0535
+2025-05-16 02:05:21,408 - PID output: Beam angle = 0.3002 rad
+
+2025-05-16 02:05:21,413 - Time: 0.07s | Pos: 0.0045m | Error: 0.4955m | Vel: 0.1241m/s
+2025-05-16 02:05:21,414 - P term: 0.3469 | I term: 0.0057 | D term: -0.1489
+2025-05-16 02:05:21,414 - PID output: Beam angle = 0.2037 rad
+
+2025-05-16 02:05:21,423 - Time: 0.22s | Pos: 0.0357m | Error: 0.4643m | Vel: 0.2425m/s
+2025-05-16 02:05:21,424 - P term: 0.3250 | I term: 0.0097 | D term: -0.2910
+2025-05-16 02:05:21,424 - PID output: Beam angle = 0.0436 rad
+
+2025-05-16 02:05:21,430 - Time: 0.54s | Pos: 0.1152m | Error: 0.3848m | Vel: 0.2500m/s
+2025-05-16 02:05:21,431 - P term: 0.2693 | I term: 0.0164 | D term: -0.3001
+2025-05-16 02:05:21,431 - PID output: Beam angle = -0.0143 rad
+
+2025-05-16 02:05:21,437 - Time: 0.95s | Pos: 0.2082m | Error: 0.2918m | Vel: 0.2031m/s
+2025-05-16 02:05:21,438 - P term: 0.2043 | I term: 0.0234 | D term: -0.2437
+2025-05-16 02:05:21,438 - PID output: Beam angle = -0.0160 rad
+
+2025-05-16 02:05:21,444 - Time: 1.46s | Pos: 0.2992m | Error: 0.2008m | Vel: 0.1522m/s
+2025-05-16 02:05:21,445 - P term: 0.1405 | I term: 0.0298 | D term: -0.1826
+2025-05-16 02:05:21,445 - PID output: Beam angle = -0.0123 rad
+
+2025-05-16 02:05:21,449 - Time: 2.06s | Pos: 0.3769m | Error: 0.1231m | Vel: 0.1080m/s
+2025-05-16 02:05:21,450 - P term: 0.0862 | I term: 0.0346 | D term: -0.1296
+2025-05-16 02:05:21,450 - PID output: Beam angle = -0.0089 rad
+
+2025-05-16 02:05:21,453 - Time: 2.71s | Pos: 0.4349m | Error: 0.0651m | Vel: 0.0745m/s
+2025-05-16 02:05:21,454 - P term: 0.0456 | I term: 0.0376 | D term: -0.0894
+2025-05-16 02:05:21,454 - PID output: Beam angle = -0.0062 rad
+
+2025-05-16 02:05:21,459 - Time: 3.49s | Pos: 0.4816m | Error: 0.0184m | Vel: 0.0467m/s
+2025-05-16 02:05:21,459 - P term: 0.0129 | I term: 0.0391 | D term: -0.0561
+2025-05-16 02:05:21,460 - PID output: Beam angle = -0.0041 rad
+
+2025-05-16 02:05:21,463 - Time: 4.54s | Pos: 0.5176m | Error: -0.0176m | Vel: 0.0241m/s
+2025-05-16 02:05:21,463 - P term: -0.0123 | I term: 0.0390 | D term: -0.0289
+2025-05-16 02:05:21,465 - PID output: Beam angle = -0.0023 rad
+
+2025-05-16 02:05:21,468 - Time: 0.29s | Pos: 0.0522m | Error: 0.4478m | Vel: 0.2560m/s
+2025-05-16 02:05:21,468 - P term: 0.3135 | I term: 0.0454 | D term: -0.3072
+2025-05-16 02:05:21,468 - PID output: Beam angle = 0.0517 rad
+
+2025-05-16 02:05:21,470 - Time: 0.79s | Pos: 0.1753m | Error: 0.3247m | Vel: 0.2209m/s
+2025-05-16 02:05:21,471 - P term: 0.2273 | I term: 0.0500 | D term: -0.2651
+2025-05-16 02:05:21,471 - PID output: Beam angle = 0.0122 rad
+
+2025-05-16 02:05:21,472 - Time: 1.29s | Pos: 0.2719m | Error: 0.2281m | Vel: 0.1675m/s
+2025-05-16 02:05:21,472 - P term: 0.1597 | I term: 0.0500 | D term: -0.2011
+2025-05-16 02:05:21,473 - PID output: Beam angle = 0.0086 rad
+
+2025-05-16 02:05:21,474 - Time: 1.79s | Pos: 0.3449m | Error: 0.1551m | Vel: 0.1263m/s
+2025-05-16 02:05:21,474 - P term: 0.1086 | I term: 0.0500 | D term: -0.1515
+2025-05-16 02:05:21,474 - PID output: Beam angle = 0.0070 rad
+
+2025-05-16 02:05:21,475 - Time: 2.29s | Pos: 0.3998m | Error: 0.1002m | Vel: 0.0948m/s
+2025-05-16 02:05:21,475 - P term: 0.0701 | I term: 0.0500 | D term: -0.1138
+2025-05-16 02:05:21,476 - PID output: Beam angle = 0.0063 rad
+
+2025-05-16 02:05:21,477 - Time: 2.79s | Pos: 0.4410m | Error: 0.0590m | Vel: 0.0709m/s
+2025-05-16 02:05:21,477 - P term: 0.0413 | I term: 0.0500 | D term: -0.0851
+2025-05-16 02:05:21,477 - PID output: Beam angle = 0.0062 rad
+
+2025-05-16 02:05:21,478 - Time: 3.29s | Pos: 0.4717m | Error: 0.0283m | Vel: 0.0527m/s
+2025-05-16 02:05:21,478 - P term: 0.0198 | I term: 0.0500 | D term: -0.0632
+2025-05-16 02:05:21,478 - PID output: Beam angle = 0.0066 rad
+
+2025-05-16 02:05:21,478 - Time: 3.79s | Pos: 0.4944m | Error: 0.0056m | Vel: 0.0389m/s
+2025-05-16 02:05:21,478 - P term: 0.0039 | I term: 0.0500 | D term: -0.0466
+2025-05-16 02:05:21,479 - PID output: Beam angle = 0.0073 rad
+
+2025-05-16 02:05:21,480 - Time: 4.29s | Pos: 0.5111m | Error: -0.0111m | Vel: 0.0284m/s
+2025-05-16 02:05:21,480 - P term: -0.0078 | I term: 0.0499 | D term: -0.0340
+2025-05-16 02:05:21,480 - PID output: Beam angle = 0.0081 rad
+
+2025-05-16 02:05:21,481 - Time: 4.79s | Pos: 0.5232m | Error: -0.0232m | Vel: 0.0204m/s
+2025-05-16 02:05:21,482 - P term: -0.0162 | I term: 0.0495 | D term: -0.0245
+2025-05-16 02:05:21,482 - PID output: Beam angle = 0.0088 rad
+
+2025-05-16 02:05:21,482 - 
+Performance Metrics:
+2025-05-16 02:05:21,483 - Settling Time: 3.690 s
+2025-05-16 02:05:21,483 - Overshoot: 5.40%
+2025-05-16 02:05:21,483 - Steady-State Error: 0.027008 m
+2025-05-16 02:05:23,572 - 
+=== Test Case: Distant Start ===
+2025-05-16 02:05:23,574 - 
+Running simulation with ImprovedFuzzyController...
+2025-05-16 02:05:23,844 - Time: 0.00s | Pos: -0.8000m | Error: 1.3000m | Vel: 0.0009m/s
+2025-05-16 02:05:23,844 - Scaled Error: 1.0000 | Scaled dError: -0.0011
+2025-05-16 02:05:23,902 - Control output: Beam angle = 0.0714 rad
+
+2025-05-16 02:05:25,809 - Time: 0.54s | Pos: -0.7265m | Error: 1.2265m | Vel: 0.2713m/s
+2025-05-16 02:05:25,810 - Scaled Error: 1.0000 | Scaled dError: -0.3392
+2025-05-16 02:05:25,874 - Control output: Beam angle = 0.0689 rad
+
+2025-05-16 02:05:27,326 - Time: 0.69s | Pos: -0.6795m | Error: 1.1795m | Vel: 0.3289m/s
+2025-05-16 02:05:27,327 - Scaled Error: 1.0000 | Scaled dError: -0.4111
+2025-05-16 02:05:27,368 - Control output: Beam angle = 0.0232 rad
+
+2025-05-16 02:05:28,627 - Time: 1.03s | Pos: -0.5643m | Error: 1.0643m | Vel: 0.3384m/s
+2025-05-16 02:05:28,628 - Scaled Error: 1.0000 | Scaled dError: -0.4230
+2025-05-16 02:05:28,651 - Control output: Beam angle = -0.0000 rad
+
+2025-05-16 02:05:30,062 - Time: 2.04s | Pos: -0.2243m | Error: 0.7243m | Vel: 0.3384m/s
+2025-05-16 02:05:30,062 - Scaled Error: 1.0000 | Scaled dError: -0.4230
+2025-05-16 02:05:30,100 - Control output: Beam angle = 0.0000 rad
+
+2025-05-16 02:05:31,431 - Time: 2.78s | Pos: 0.0247m | Error: 0.4753m | Vel: 0.3384m/s
+2025-05-16 02:05:31,431 - Scaled Error: 0.9506 | Scaled dError: -0.4230
+2025-05-16 02:05:31,474 - Control output: Beam angle = -0.0002 rad
+
+2025-05-16 02:05:32,977 - Time: 3.11s | Pos: 0.1366m | Error: 0.3634m | Vel: 0.3238m/s
+2025-05-16 02:05:32,977 - Scaled Error: 0.7268 | Scaled dError: -0.4047
+2025-05-16 02:05:33,024 - Control output: Beam angle = -0.0048 rad
+
+2025-05-16 02:05:34,613 - Time: 3.59s | Pos: 0.2886m | Error: 0.2114m | Vel: 0.3207m/s
+2025-05-16 02:05:34,614 - Scaled Error: 0.4227 | Scaled dError: -0.4009
+2025-05-16 02:05:34,653 - Control output: Beam angle = 0.0028 rad
+
+2025-05-16 02:05:36,032 - Time: 3.88s | Pos: 0.3837m | Error: 0.1163m | Vel: 0.3140m/s
+2025-05-16 02:05:36,032 - Scaled Error: 0.2326 | Scaled dError: -0.3925
+2025-05-16 02:05:36,067 - Control output: Beam angle = -0.0135 rad
+
+2025-05-16 02:05:37,538 - Time: 4.18s | Pos: 0.4773m | Error: 0.0227m | Vel: 0.3163m/s
+2025-05-16 02:05:37,539 - Scaled Error: 0.0454 | Scaled dError: -0.3954
+2025-05-16 02:05:37,576 - Control output: Beam angle = 0.0057 rad
+
+2025-05-16 02:05:38,949 - Time: 4.34s | Pos: 0.5257m | Error: -0.0257m | Vel: 0.3192m/s
+2025-05-16 02:05:38,949 - Scaled Error: -0.0513 | Scaled dError: -0.3990
+2025-05-16 02:05:38,986 - Control output: Beam angle = 0.0008 rad
+
+2025-05-16 02:05:40,367 - Time: 4.62s | Pos: 0.6162m | Error: -0.1162m | Vel: 0.3178m/s
+2025-05-16 02:05:40,368 - Scaled Error: -0.2324 | Scaled dError: -0.3972
+2025-05-16 02:05:40,390 - Control output: Beam angle = 0.0005 rad
+
+2025-05-16 02:05:41,774 - Time: 4.79s | Pos: 0.6689m | Error: -0.1689m | Vel: 0.3219m/s
+2025-05-16 02:05:41,775 - Scaled Error: -0.3377 | Scaled dError: -0.4024
+2025-05-16 02:05:41,863 - Control output: Beam angle = 0.0047 rad
+
+2025-05-16 02:05:43,279 - Time: 4.92s | Pos: 0.7106m | Error: -0.2106m | Vel: 0.3051m/s
+2025-05-16 02:05:43,279 - Scaled Error: -0.4211 | Scaled dError: -0.3814
+2025-05-16 02:05:43,310 - Control output: Beam angle = -0.0440 rad
+
+2025-05-16 02:05:44,392 - Time: 0.43s | Pos: -0.7531m | Error: 1.2531m | Vel: 0.2179m/s
+2025-05-16 02:05:44,393 - Scaled Error: 1.0000 | Scaled dError: -0.2724
+2025-05-16 02:05:44,420 - Control output: Beam angle = 0.0709 rad
+
+2025-05-16 02:05:45,918 - Time: 0.93s | Pos: -0.5998m | Error: 1.0998m | Vel: 0.3383m/s
+2025-05-16 02:05:45,918 - Scaled Error: 1.0000 | Scaled dError: -0.4228
+2025-05-16 02:05:45,948 - Control output: Beam angle = 0.0003 rad
+
+2025-05-16 02:05:47,258 - Time: 1.43s | Pos: -0.4306m | Error: 0.9306m | Vel: 0.3384m/s
+2025-05-16 02:05:47,258 - Scaled Error: 1.0000 | Scaled dError: -0.4230
+2025-05-16 02:05:47,286 - Control output: Beam angle = 0.0000 rad
+
+2025-05-16 02:05:48,670 - Time: 1.93s | Pos: -0.2614m | Error: 0.7614m | Vel: 0.3384m/s
+2025-05-16 02:05:48,671 - Scaled Error: 1.0000 | Scaled dError: -0.4230
+2025-05-16 02:05:48,714 - Control output: Beam angle = -0.0000 rad
+
+2025-05-16 02:05:50,047 - Time: 2.43s | Pos: -0.0922m | Error: 0.5922m | Vel: 0.3384m/s
+2025-05-16 02:05:50,047 - Scaled Error: 1.0000 | Scaled dError: -0.4230
+2025-05-16 02:05:50,164 - Control output: Beam angle = 0.0000 rad
+
+2025-05-16 02:05:51,505 - Time: 2.93s | Pos: 0.0766m | Error: 0.4234m | Vel: 0.3321m/s
+2025-05-16 02:05:51,506 - Scaled Error: 0.8468 | Scaled dError: -0.4151
+2025-05-16 02:05:51,540 - Control output: Beam angle = -0.0075 rad
+
+2025-05-16 02:05:52,978 - Time: 3.43s | Pos: 0.2381m | Error: 0.2619m | Vel: 0.3191m/s
+2025-05-16 02:05:52,979 - Scaled Error: 0.5237 | Scaled dError: -0.3989
+2025-05-16 02:05:53,005 - Control output: Beam angle = 0.0001 rad
+
+2025-05-16 02:05:54,573 - Time: 3.93s | Pos: 0.3980m | Error: 0.1020m | Vel: 0.3106m/s
+2025-05-16 02:05:54,573 - Scaled Error: 0.2040 | Scaled dError: -0.3883
+2025-05-16 02:05:54,607 - Control output: Beam angle = -0.0078 rad
+
+2025-05-16 02:05:55,939 - Time: 4.43s | Pos: 0.5555m | Error: -0.0555m | Vel: 0.3189m/s
+2025-05-16 02:05:55,939 - Scaled Error: -0.1110 | Scaled dError: -0.3986
+2025-05-16 02:05:55,977 - Control output: Beam angle = -0.0012 rad
+
+2025-05-16 02:05:57,457 - Time: 4.93s | Pos: 0.7145m | Error: -0.2145m | Vel: 0.3009m/s
+2025-05-16 02:05:57,457 - Scaled Error: -0.4289 | Scaled dError: -0.3761
+2025-05-16 02:05:57,478 - Control output: Beam angle = -0.0488 rad
+
+2025-05-16 02:05:57,618 - 
+Performance Metrics:
+2025-05-16 02:05:57,618 - Settling Time: 4.990 s
+2025-05-16 02:05:57,619 - Overshoot: 46.36%
+2025-05-16 02:05:57,619 - Steady-State Error: 0.231818 m
+2025-05-16 02:06:01,030 - 
+Running simulation with OptimizedPIDController...
+2025-05-16 02:06:01,034 - Time: 0.10s | Pos: -0.7871m | Error: 1.2871m | Vel: 0.2688m/s
+2025-05-16 02:06:01,035 - P term: 0.9010 | I term: 0.0500 | D term: -0.3226
+2025-05-16 02:06:01,035 - PID output: Beam angle = 0.4000 rad
+
+2025-05-16 02:06:01,041 - Time: 0.20s | Pos: -0.7462m | Error: 1.2462m | Vel: 0.5344m/s
+2025-05-16 02:06:01,041 - P term: 0.8724 | I term: 0.0500 | D term: -0.6412
+2025-05-16 02:06:01,043 - PID output: Beam angle = 0.2811 rad
+
+2025-05-16 02:06:01,051 - Time: 0.56s | Pos: -0.5095m | Error: 1.0095m | Vel: 0.6636m/s
+2025-05-16 02:06:01,053 - P term: 0.7066 | I term: 0.0500 | D term: -0.7964
+2025-05-16 02:06:01,055 - PID output: Beam angle = -0.0398 rad
+
+2025-05-16 02:06:01,064 - Time: 1.29s | Pos: -0.1093m | Error: 0.6093m | Vel: 0.4294m/s
+2025-05-16 02:06:01,064 - P term: 0.4265 | I term: 0.0500 | D term: -0.5153
+2025-05-16 02:06:01,065 - PID output: Beam angle = -0.0388 rad
+
+2025-05-16 02:06:01,070 - Time: 3.42s | Pos: 0.3941m | Error: 0.1059m | Vel: 0.1119m/s
+2025-05-16 02:06:01,071 - P term: 0.0741 | I term: 0.0500 | D term: -0.1342
+2025-05-16 02:06:01,073 - PID output: Beam angle = -0.0101 rad
+
+2025-05-16 02:06:01,082 - Time: 4.78s | Pos: 0.4962m | Error: 0.0038m | Vel: 0.0475m/s
+2025-05-16 02:06:01,083 - P term: 0.0027 | I term: 0.0500 | D term: -0.0570
+2025-05-16 02:06:01,084 - PID output: Beam angle = -0.0043 rad
+
+2025-05-16 02:06:01,093 - Time: 0.15s | Pos: -0.7684m | Error: 1.2684m | Vel: 0.4213m/s
+2025-05-16 02:06:01,093 - P term: 0.8879 | I term: 0.0500 | D term: -0.5056
+2025-05-16 02:06:01,095 - PID output: Beam angle = 0.4000 rad
+
+2025-05-16 02:06:01,099 - Time: 0.65s | Pos: -0.4481m | Error: 0.9481m | Vel: 0.6344m/s
+2025-05-16 02:06:01,100 - P term: 0.6637 | I term: 0.0500 | D term: -0.7613
+2025-05-16 02:06:01,100 - PID output: Beam angle = -0.0477 rad
+
+2025-05-16 02:06:01,102 - Time: 1.15s | Pos: -0.1731m | Error: 0.6731m | Vel: 0.4696m/s
+2025-05-16 02:06:01,102 - P term: 0.4712 | I term: 0.0500 | D term: -0.5635
+2025-05-16 02:06:01,103 - PID output: Beam angle = -0.0423 rad
+
+2025-05-16 02:06:01,105 - Time: 1.65s | Pos: 0.0283m | Error: 0.4717m | Vel: 0.3426m/s
+2025-05-16 02:06:01,105 - P term: 0.3302 | I term: 0.0500 | D term: -0.4112
+2025-05-16 02:06:01,106 - PID output: Beam angle = -0.0310 rad
+
+2025-05-16 02:06:01,108 - Time: 2.15s | Pos: 0.1752m | Error: 0.3248m | Vel: 0.2499m/s
+2025-05-16 02:06:01,108 - P term: 0.2274 | I term: 0.0500 | D term: -0.2999
+2025-05-16 02:06:01,109 - PID output: Beam angle = -0.0226 rad
+
+2025-05-16 02:06:01,111 - Time: 2.65s | Pos: 0.2824m | Error: 0.2176m | Vel: 0.1823m/s
+2025-05-16 02:06:01,112 - P term: 0.1523 | I term: 0.0500 | D term: -0.2188
+2025-05-16 02:06:01,112 - PID output: Beam angle = -0.0165 rad
+
+2025-05-16 02:06:01,114 - Time: 3.15s | Pos: 0.3606m | Error: 0.1394m | Vel: 0.1330m/s
+2025-05-16 02:06:01,115 - P term: 0.0976 | I term: 0.0500 | D term: -0.1596
+2025-05-16 02:06:01,115 - PID output: Beam angle = -0.0120 rad
+
+2025-05-16 02:06:01,117 - Time: 3.65s | Pos: 0.4176m | Error: 0.0824m | Vel: 0.0970m/s
+2025-05-16 02:06:01,117 - P term: 0.0577 | I term: 0.0500 | D term: -0.1164
+2025-05-16 02:06:01,117 - PID output: Beam angle = -0.0088 rad
+
+2025-05-16 02:06:01,119 - Time: 4.15s | Pos: 0.4592m | Error: 0.0408m | Vel: 0.0708m/s
+2025-05-16 02:06:01,120 - P term: 0.0285 | I term: 0.0500 | D term: -0.0849
+2025-05-16 02:06:01,121 - PID output: Beam angle = -0.0064 rad
+
+2025-05-16 02:06:01,122 - Time: 4.65s | Pos: 0.4896m | Error: 0.0104m | Vel: 0.0516m/s
+2025-05-16 02:06:01,122 - P term: 0.0073 | I term: 0.0500 | D term: -0.0620
+2025-05-16 02:06:01,123 - PID output: Beam angle = -0.0047 rad
+
+2025-05-16 02:06:01,125 - 
+Performance Metrics:
+2025-05-16 02:06:01,127 - Settling Time: 4.660 s
+2025-05-16 02:06:01,128 - Overshoot: 1.07%
+2025-05-16 02:06:01,129 - Steady-State Error: 0.005373 m
+2025-05-16 02:06:03,042 - 
+=== Test Case: Initial Velocity ===
+2025-05-16 02:06:03,042 - 
+Running simulation with ImprovedFuzzyController...
+2025-05-16 02:06:04,235 - Time: 0.19s | Pos: 0.0601m | Error: 0.4399m | Vel: 0.3328m/s
+2025-05-16 02:06:04,235 - Scaled Error: 0.8798 | Scaled dError: -0.4160
+2025-05-16 02:06:04,258 - Control output: Beam angle = -0.0026 rad
+
+2025-05-16 02:06:05,753 - Time: 0.57s | Pos: 0.1868m | Error: 0.3132m | Vel: 0.3200m/s
+2025-05-16 02:06:05,754 - Scaled Error: 0.6264 | Scaled dError: -0.4000
+2025-05-16 02:06:05,797 - Control output: Beam angle = -0.0021 rad
+
+2025-05-16 02:06:07,274 - Time: 1.09s | Pos: 0.3530m | Error: 0.1470m | Vel: 0.3203m/s
+2025-05-16 02:06:07,274 - Scaled Error: 0.2939 | Scaled dError: -0.4003
+2025-05-16 02:06:07,300 - Control output: Beam angle = -0.0068 rad
+
+2025-05-16 02:06:08,462 - Time: 1.34s | Pos: 0.4307m | Error: 0.0693m | Vel: 0.3095m/s
+2025-05-16 02:06:08,462 - Scaled Error: 0.1386 | Scaled dError: -0.3869
+2025-05-16 02:06:08,485 - Control output: Beam angle = 0.0042 rad
+
+2025-05-16 02:06:09,750 - Time: 1.53s | Pos: 0.4906m | Error: 0.0094m | Vel: 0.3180m/s
+2025-05-16 02:06:09,750 - Scaled Error: 0.0187 | Scaled dError: -0.3975
+2025-05-16 02:06:09,775 - Control output: Beam angle = 0.0024 rad
+
+2025-05-16 02:06:11,332 - Time: 1.96s | Pos: 0.6268m | Error: -0.1268m | Vel: 0.3179m/s
+2025-05-16 02:06:11,332 - Scaled Error: -0.2535 | Scaled dError: -0.3974
+2025-05-16 02:06:11,371 - Control output: Beam angle = 0.0018 rad
+
+2025-05-16 02:06:12,849 - Time: 2.35s | Pos: 0.7464m | Error: -0.2464m | Vel: 0.2434m/s
+2025-05-16 02:06:12,849 - Scaled Error: -0.4928 | Scaled dError: -0.3042
+2025-05-16 02:06:12,897 - Control output: Beam angle = -0.0925 rad
+
+2025-05-16 02:06:14,333 - Time: 2.54s | Pos: 0.7784m | Error: -0.2784m | Vel: 0.0862m/s
+2025-05-16 02:06:14,333 - Scaled Error: -0.5569 | Scaled dError: -0.1077
+2025-05-16 02:06:14,359 - Control output: Beam angle = -0.1405 rad
+
+2025-05-16 02:06:15,515 - Time: 2.61s | Pos: 0.7819m | Error: -0.2819m | Vel: 0.0109m/s
+2025-05-16 02:06:15,516 - Scaled Error: -0.5638 | Scaled dError: -0.0137
+2025-05-16 02:06:15,547 - Control output: Beam angle = -0.1698 rad
+
+2025-05-16 02:06:16,918 - Time: 2.72s | Pos: 0.7750m | Error: -0.2750m | Vel: -0.1295m/s
+2025-05-16 02:06:16,919 - Scaled Error: -0.5500 | Scaled dError: 0.1618
+2025-05-16 02:06:16,957 - Control output: Beam angle = -0.1612 rad
+
+2025-05-16 02:06:18,290 - Time: 3.13s | Pos: 0.6666m | Error: -0.1666m | Vel: -0.3132m/s
+2025-05-16 02:06:18,290 - Scaled Error: -0.3332 | Scaled dError: 0.3915
+2025-05-16 02:06:18,333 - Control output: Beam angle = 0.0102 rad
+
+2025-05-16 02:06:19,805 - Time: 3.61s | Pos: 0.5244m | Error: -0.0244m | Vel: -0.2846m/s
+2025-05-16 02:06:19,805 - Scaled Error: -0.0487 | Scaled dError: 0.3558
+2025-05-16 02:06:19,829 - Control output: Beam angle = 0.0127 rad
+
+2025-05-16 02:06:21,080 - Time: 3.96s | Pos: 0.4301m | Error: 0.0699m | Vel: -0.2485m/s
+2025-05-16 02:06:21,081 - Scaled Error: 0.1397 | Scaled dError: 0.3106
+2025-05-16 02:06:21,196 - Control output: Beam angle = 0.0143 rad
+
+2025-05-16 02:06:22,624 - Time: 4.04s | Pos: 0.4100m | Error: 0.0900m | Vel: -0.2411m/s
+2025-05-16 02:06:22,625 - Scaled Error: 0.1801 | Scaled dError: 0.3014
+2025-05-16 02:06:22,669 - Control output: Beam angle = 0.0104 rad
+
+2025-05-16 02:06:24,173 - Time: 4.55s | Pos: 0.2905m | Error: 0.2095m | Vel: -0.2438m/s
+2025-05-16 02:06:24,173 - Scaled Error: 0.4190 | Scaled dError: 0.3047
+2025-05-16 02:06:24,203 - Control output: Beam angle = -0.0040 rad
+
+2025-05-16 02:06:25,564 - Time: 0.23s | Pos: 0.0749m | Error: 0.4251m | Vel: 0.3314m/s
+2025-05-16 02:06:25,565 - Scaled Error: 0.8501 | Scaled dError: -0.4143
+2025-05-16 02:06:25,585 - Control output: Beam angle = -0.0054 rad
+
+2025-05-16 02:06:26,815 - Time: 0.73s | Pos: 0.2365m | Error: 0.2635m | Vel: 0.3191m/s
+2025-05-16 02:06:26,816 - Scaled Error: 0.5270 | Scaled dError: -0.3989
+2025-05-16 02:06:26,853 - Control output: Beam angle = 0.0000 rad
+
+2025-05-16 02:06:28,266 - Time: 1.23s | Pos: 0.3964m | Error: 0.1036m | Vel: 0.3109m/s
+2025-05-16 02:06:28,266 - Scaled Error: 0.2072 | Scaled dError: -0.3887
+2025-05-16 02:06:28,286 - Control output: Beam angle = -0.0085 rad
+
+2025-05-16 02:06:29,800 - Time: 1.73s | Pos: 0.5539m | Error: -0.0539m | Vel: 0.3189m/s
+2025-05-16 02:06:29,800 - Scaled Error: -0.1077 | Scaled dError: -0.3987
+2025-05-16 02:06:29,820 - Control output: Beam angle = -0.0012 rad
+
+2025-05-16 02:06:31,127 - Time: 2.23s | Pos: 0.7129m | Error: -0.2129m | Vel: 0.3026m/s
+2025-05-16 02:06:31,127 - Scaled Error: -0.4259 | Scaled dError: -0.3782
+2025-05-16 02:06:31,147 - Control output: Beam angle = -0.0469 rad
+
+2025-05-16 02:06:32,382 - Time: 2.73s | Pos: 0.7743m | Error: -0.2743m | Vel: -0.1359m/s
+2025-05-16 02:06:32,382 - Scaled Error: -0.5485 | Scaled dError: 0.1698
+2025-05-16 02:06:32,405 - Control output: Beam angle = -0.1589 rad
+
+2025-05-16 02:06:33,614 - Time: 3.23s | Pos: 0.6366m | Error: -0.1366m | Vel: -0.3066m/s
+2025-05-16 02:06:33,615 - Scaled Error: -0.2733 | Scaled dError: 0.3833
+2025-05-16 02:06:33,653 - Control output: Beam angle = 0.0090 rad
+
+2025-05-16 02:06:35,061 - Time: 3.73s | Pos: 0.4904m | Error: 0.0096m | Vel: -0.2732m/s
+2025-05-16 02:06:35,061 - Scaled Error: 0.0191 | Scaled dError: 0.3416
+2025-05-16 02:06:35,084 - Control output: Beam angle = 0.0151 rad
+
+2025-05-16 02:06:36,568 - Time: 4.23s | Pos: 0.3659m | Error: 0.1341m | Vel: -0.2343m/s
+2025-05-16 02:06:36,569 - Scaled Error: 0.2681 | Scaled dError: 0.2929
+2025-05-16 02:06:36,592 - Control output: Beam angle = 0.0000 rad
+
+2025-05-16 02:06:38,125 - Time: 4.73s | Pos: 0.2454m | Error: 0.2546m | Vel: -0.2478m/s
+2025-05-16 02:06:38,126 - Scaled Error: 0.5093 | Scaled dError: 0.3097
+2025-05-16 02:06:38,161 - Control output: Beam angle = -0.0026 rad
+
+2025-05-16 02:06:38,996 - 
+Performance Metrics:
+2025-05-16 02:06:38,996 - Settling Time: 4.990 s
+2025-05-16 02:06:38,997 - Overshoot: 56.39%
+2025-05-16 02:06:38,998 - Steady-State Error: 0.319577 m
+2025-05-16 02:06:42,293 - 
+Running simulation with OptimizedPIDController...
+2025-05-16 02:06:42,295 - Time: 0.04s | Pos: 0.0114m | Error: 0.4886m | Vel: 0.3081m/s
+2025-05-16 02:06:42,296 - P term: 0.3420 | I term: 0.0500 | D term: -0.3697
+2025-05-16 02:06:42,297 - PID output: Beam angle = 0.0223 rad
+
+2025-05-16 02:06:42,305 - Time: 0.49s | Pos: 0.1464m | Error: 0.3536m | Vel: 0.2669m/s
+2025-05-16 02:06:42,305 - P term: 0.2475 | I term: 0.0500 | D term: -0.3203
+2025-05-16 02:06:42,306 - PID output: Beam angle = -0.0227 rad
+
+2025-05-16 02:06:42,313 - Time: 1.56s | Pos: 0.3544m | Error: 0.1456m | Vel: 0.1369m/s
+2025-05-16 02:06:42,314 - P term: 0.1020 | I term: 0.0500 | D term: -0.1643
+2025-05-16 02:06:42,315 - PID output: Beam angle = -0.0124 rad
+
+2025-05-16 02:06:42,325 - Time: 3.19s | Pos: 0.4938m | Error: 0.0062m | Vel: 0.0489m/s
+2025-05-16 02:06:42,326 - P term: 0.0043 | I term: 0.0499 | D term: -0.0587
+2025-05-16 02:06:42,327 - PID output: Beam angle = -0.0045 rad
+
+2025-05-16 02:06:42,339 - Time: 3.61s | Pos: 0.5120m | Error: -0.0120m | Vel: 0.0372m/s
+2025-05-16 02:06:42,339 - P term: -0.0084 | I term: 0.0496 | D term: -0.0447
+2025-05-16 02:06:42,340 - PID output: Beam angle = -0.0036 rad
+
+2025-05-16 02:06:42,352 - Time: 4.41s | Pos: 0.5351m | Error: -0.0351m | Vel: 0.0218m/s
+2025-05-16 02:06:42,354 - P term: -0.0246 | I term: 0.0485 | D term: -0.0262
+2025-05-16 02:06:42,355 - PID output: Beam angle = -0.0022 rad
+
+2025-05-16 02:06:42,362 - Time: 4.69s | Pos: 0.5405m | Error: -0.0405m | Vel: 0.0176m/s
+2025-05-16 02:06:42,363 - P term: -0.0284 | I term: 0.0473 | D term: -0.0211
+2025-05-16 02:06:42,364 - PID output: Beam angle = -0.0021 rad
+
+2025-05-16 02:06:42,371 - Time: 4.99s | Pos: 0.5453m | Error: -0.0453m | Vel: 0.0137m/s
+2025-05-16 02:06:42,372 - P term: -0.0317 | I term: 0.0467 | D term: -0.0165
+2025-05-16 02:06:42,373 - PID output: Beam angle = -0.0016 rad
+
+2025-05-16 02:06:42,376 - Time: 0.41s | Pos: 0.1240m | Error: 0.3760m | Vel: 0.2797m/s
+2025-05-16 02:06:42,377 - P term: 0.2632 | I term: 0.0500 | D term: -0.3357
+2025-05-16 02:06:42,377 - PID output: Beam angle = -0.0225 rad
+
+2025-05-16 02:06:42,380 - Time: 0.91s | Pos: 0.2448m | Error: 0.2552m | Vel: 0.2060m/s
+2025-05-16 02:06:42,381 - P term: 0.1786 | I term: 0.0500 | D term: -0.2472
+2025-05-16 02:06:42,382 - PID output: Beam angle = -0.0185 rad
+
+2025-05-16 02:06:42,387 - Time: 1.41s | Pos: 0.3331m | Error: 0.1669m | Vel: 0.1503m/s
+2025-05-16 02:06:42,388 - P term: 0.1168 | I term: 0.0500 | D term: -0.1804
+2025-05-16 02:06:42,390 - PID output: Beam angle = -0.0136 rad
+
+2025-05-16 02:06:42,392 - Time: 1.91s | Pos: 0.3976m | Error: 0.1024m | Vel: 0.1096m/s
+2025-05-16 02:06:42,393 - P term: 0.0717 | I term: 0.0500 | D term: -0.1316
+2025-05-16 02:06:42,394 - PID output: Beam angle = -0.0099 rad
+
+2025-05-16 02:06:42,397 - Time: 2.41s | Pos: 0.4446m | Error: 0.0554m | Vel: 0.0800m/s
+2025-05-16 02:06:42,398 - P term: 0.0388 | I term: 0.0500 | D term: -0.0960
+2025-05-16 02:06:42,398 - PID output: Beam angle = -0.0072 rad
+
+2025-05-16 02:06:42,402 - Time: 2.91s | Pos: 0.4789m | Error: 0.0211m | Vel: 0.0584m/s
+2025-05-16 02:06:42,402 - P term: 0.0148 | I term: 0.0500 | D term: -0.0700
+2025-05-16 02:06:42,403 - PID output: Beam angle = -0.0053 rad
+
+2025-05-16 02:06:42,406 - Time: 3.41s | Pos: 0.5039m | Error: -0.0039m | Vel: 0.0425m/s
+2025-05-16 02:06:42,408 - P term: -0.0028 | I term: 0.0500 | D term: -0.0510
+2025-05-16 02:06:42,409 - PID output: Beam angle = -0.0037 rad
+
+2025-05-16 02:06:42,413 - Time: 3.91s | Pos: 0.5221m | Error: -0.0221m | Vel: 0.0306m/s
+2025-05-16 02:06:42,414 - P term: -0.0154 | I term: 0.0496 | D term: -0.0367
+2025-05-16 02:06:42,414 - PID output: Beam angle = -0.0025 rad
+
+2025-05-16 02:06:42,419 - Time: 4.41s | Pos: 0.5351m | Error: -0.0351m | Vel: 0.0218m/s
+2025-05-16 02:06:42,421 - P term: -0.0246 | I term: 0.0489 | D term: -0.0262
+2025-05-16 02:06:42,422 - PID output: Beam angle = -0.0018 rad
+
+2025-05-16 02:06:42,424 - Time: 4.91s | Pos: 0.5441m | Error: -0.0441m | Vel: 0.0147m/s
+2025-05-16 02:06:42,424 - P term: -0.0309 | I term: 0.0479 | D term: -0.0176
+2025-05-16 02:06:42,425 - PID output: Beam angle = -0.0006 rad
+
+2025-05-16 02:06:42,426 - 
+Performance Metrics:
+2025-05-16 02:06:42,427 - Settling Time: 3.120 s
+2025-05-16 02:06:42,427 - Overshoot: 9.05%
+2025-05-16 02:06:42,428 - Steady-State Error: 0.045258 m
+2025-05-16 02:06:44,500 - 
+=== Test Case: Negative Setpoint ===
+2025-05-16 02:06:44,501 - 
+Running simulation with ImprovedFuzzyController...
+2025-05-16 02:06:45,266 - Time: 0.01s | Pos: -0.0000m | Error: -0.3000m | Vel: -0.0103m/s
+2025-05-16 02:06:45,267 - Scaled Error: -0.5999 | Scaled dError: 0.0129
+2025-05-16 02:06:45,297 - Control output: Beam angle = -0.1983 rad
+
+2025-05-16 02:06:46,775 - Time: 0.14s | Pos: -0.0139m | Error: -0.2861m | Vel: -0.1994m/s
+2025-05-16 02:06:46,775 - Scaled Error: -0.5723 | Scaled dError: 0.2493
+2025-05-16 02:06:46,827 - Control output: Beam angle = -0.2010 rad
+
+2025-05-16 02:06:48,148 - Time: 0.24s | Pos: -0.0407m | Error: -0.2593m | Vel: -0.3131m/s
+2025-05-16 02:06:48,149 - Scaled Error: -0.5185 | Scaled dError: 0.3914
+2025-05-16 02:06:48,177 - Control output: Beam angle = -0.1174 rad
+
+2025-05-16 02:06:49,356 - Time: 0.59s | Pos: -0.1692m | Error: -0.1308m | Vel: -0.3735m/s
+2025-05-16 02:06:49,356 - Scaled Error: -0.2617 | Scaled dError: 0.4669
+2025-05-16 02:06:49,381 - Control output: Beam angle = 0.0186 rad
+
+2025-05-16 02:06:50,893 - Time: 0.77s | Pos: -0.2345m | Error: -0.0655m | Vel: -0.3493m/s
+2025-05-16 02:06:50,894 - Scaled Error: -0.1310 | Scaled dError: 0.4367
+2025-05-16 02:06:50,925 - Control output: Beam angle = 0.0197 rad
+
+2025-05-16 02:06:52,351 - Time: 1.12s | Pos: -0.3494m | Error: 0.0494m | Vel: -0.2955m/s
+2025-05-16 02:06:52,352 - Scaled Error: 0.0989 | Scaled dError: 0.3694
+2025-05-16 02:06:52,381 - Control output: Beam angle = 0.0245 rad
+
+2025-05-16 02:06:53,766 - Time: 1.21s | Pos: -0.3732m | Error: 0.0732m | Vel: -0.2816m/s
+2025-05-16 02:06:53,766 - Scaled Error: 0.1464 | Scaled dError: 0.3521
+2025-05-16 02:06:53,790 - Control output: Beam angle = 0.0231 rad
+
+2025-05-16 02:06:55,075 - Time: 1.41s | Pos: -0.4279m | Error: 0.1279m | Vel: -0.2620m/s
+2025-05-16 02:06:55,075 - Scaled Error: 0.2558 | Scaled dError: 0.3274
+2025-05-16 02:06:55,117 - Control output: Beam angle = 0.0052 rad
+
+2025-05-16 02:06:56,386 - Time: 2.36s | Pos: -0.6728m | Error: 0.3728m | Vel: -0.2573m/s
+2025-05-16 02:06:56,387 - Scaled Error: 0.7455 | Scaled dError: 0.3216
+2025-05-16 02:06:56,407 - Control output: Beam angle = 0.0047 rad
+
+2025-05-16 02:06:57,737 - Time: 2.44s | Pos: -0.6941m | Error: 0.3941m | Vel: -0.2512m/s
+2025-05-16 02:06:57,737 - Scaled Error: 0.7883 | Scaled dError: 0.3140
+2025-05-16 02:06:57,758 - Control output: Beam angle = 0.0154 rad
+
+2025-05-16 02:06:58,999 - Time: 3.01s | Pos: -0.7911m | Error: 0.4911m | Vel: -0.0510m/s
+2025-05-16 02:06:58,999 - Scaled Error: 0.9822 | Scaled dError: 0.0637
+2025-05-16 02:06:59,024 - Control output: Beam angle = 0.0699 rad
+
+2025-05-16 02:07:00,229 - Time: 2.94s | Pos: -0.7861m | Error: 0.4861m | Vel: -0.0862m/s
+2025-05-16 02:07:00,229 - Scaled Error: 0.9722 | Scaled dError: 0.1077
+2025-05-16 02:07:00,254 - Control output: Beam angle = 0.0686 rad
+
+2025-05-16 02:07:01,930 - Time: 3.42s | Pos: -0.7702m | Error: 0.4702m | Vel: 0.1553m/s
+2025-05-16 02:07:01,931 - Scaled Error: 0.9404 | Scaled dError: -0.1941
+2025-05-16 02:07:01,974 - Control output: Beam angle = 0.0698 rad
+
+2025-05-16 02:07:03,477 - Time: 3.71s | Pos: -0.7073m | Error: 0.4073m | Vel: 0.2672m/s
+2025-05-16 02:07:03,478 - Scaled Error: 0.8146 | Scaled dError: -0.3340
+2025-05-16 02:07:03,500 - Control output: Beam angle = 0.0391 rad
+
+2025-05-16 02:07:04,984 - Time: 4.04s | Pos: -0.6091m | Error: 0.3091m | Vel: 0.3156m/s
+2025-05-16 02:07:04,984 - Scaled Error: 0.6182 | Scaled dError: -0.3946
+2025-05-16 02:07:05,004 - Control output: Beam angle = 0.0052 rad
+
+2025-05-16 02:07:06,273 - Time: 4.43s | Pos: -0.4837m | Error: 0.1837m | Vel: 0.3226m/s
+2025-05-16 02:07:06,274 - Scaled Error: 0.3674 | Scaled dError: -0.4033
+2025-05-16 02:07:06,305 - Control output: Beam angle = 0.0024 rad
+
+2025-05-16 02:07:07,936 - Time: 4.68s | Pos: -0.4038m | Error: 0.1038m | Vel: 0.3110m/s
+2025-05-16 02:07:07,936 - Scaled Error: 0.2076 | Scaled dError: -0.3887
+2025-05-16 02:07:07,976 - Control output: Beam angle = -0.0085 rad
+
+2025-05-16 02:07:09,374 - Time: 4.89s | Pos: -0.3377m | Error: 0.0377m | Vel: 0.3149m/s
+2025-05-16 02:07:09,374 - Scaled Error: 0.0755 | Scaled dError: -0.3936
+2025-05-16 02:07:09,408 - Control output: Beam angle = 0.0089 rad
+
+2025-05-16 02:07:10,673 - Time: 0.21s | Pos: -0.0310m | Error: -0.2690m | Vel: -0.2835m/s
+2025-05-16 02:07:10,674 - Scaled Error: -0.5380 | Scaled dError: 0.3543
+2025-05-16 02:07:10,694 - Control output: Beam angle = -0.1433 rad
+
+2025-05-16 02:07:11,891 - Time: 0.71s | Pos: -0.2136m | Error: -0.0864m | Vel: -0.3574m/s
+2025-05-16 02:07:11,892 - Scaled Error: -0.1729 | Scaled dError: 0.4468
+2025-05-16 02:07:11,914 - Control output: Beam angle = 0.0193 rad
+
+2025-05-16 02:07:13,374 - Time: 1.21s | Pos: -0.3742m | Error: 0.0742m | Vel: -0.2811m/s
+2025-05-16 02:07:13,375 - Scaled Error: 0.1483 | Scaled dError: 0.3514
+2025-05-16 02:07:13,415 - Control output: Beam angle = 0.0229 rad
+
+2025-05-16 02:07:14,981 - Time: 1.71s | Pos: -0.5059m | Error: 0.2059m | Vel: -0.2594m/s
+2025-05-16 02:07:14,982 - Scaled Error: 0.4118 | Scaled dError: 0.3242
+2025-05-16 02:07:15,020 - Control output: Beam angle = 0.0004 rad
+
+2025-05-16 02:07:16,295 - Time: 2.21s | Pos: -0.6352m | Error: 0.3352m | Vel: -0.2579m/s
+2025-05-16 02:07:16,296 - Scaled Error: 0.6704 | Scaled dError: 0.3223
+2025-05-16 02:07:16,320 - Control output: Beam angle = 0.0003 rad
+
+2025-05-16 02:07:17,655 - Time: 2.71s | Pos: -0.7546m | Error: 0.4546m | Vel: -0.1862m/s
+2025-05-16 02:07:17,656 - Scaled Error: 0.9092 | Scaled dError: 0.2327
+2025-05-16 02:07:17,687 - Control output: Beam angle = 0.0511 rad
+
+2025-05-16 02:07:19,108 - Time: 3.21s | Pos: -0.7913m | Error: 0.4913m | Vel: 0.0490m/s
+2025-05-16 02:07:19,109 - Scaled Error: 0.9827 | Scaled dError: -0.0613
+2025-05-16 02:07:19,138 - Control output: Beam angle = 0.0723 rad
+
+2025-05-16 02:07:20,513 - Time: 3.71s | Pos: -0.7068m | Error: 0.4068m | Vel: 0.2677m/s
+2025-05-16 02:07:20,513 - Scaled Error: 0.8137 | Scaled dError: -0.3346
+2025-05-16 02:07:20,534 - Control output: Beam angle = 0.0389 rad
+
+2025-05-16 02:07:21,813 - Time: 4.21s | Pos: -0.5542m | Error: 0.2542m | Vel: 0.3186m/s
+2025-05-16 02:07:21,813 - Scaled Error: 0.5084 | Scaled dError: -0.3983
+2025-05-16 02:07:21,842 - Control output: Beam angle = 0.0012 rad
+
+2025-05-16 02:07:23,311 - Time: 4.71s | Pos: -0.3946m | Error: 0.0946m | Vel: 0.3096m/s
+2025-05-16 02:07:23,311 - Scaled Error: 0.1892 | Scaled dError: -0.3870
+2025-05-16 02:07:23,347 - Control output: Beam angle = -0.0049 rad
+
+2025-05-16 02:07:24,297 - 
+Performance Metrics:
+2025-05-16 02:07:24,297 - Settling Time: 4.990 s
+2025-05-16 02:07:24,298 - Overshoot: 164.57%
+2025-05-16 02:07:24,298 - Steady-State Error: 0.007033 m
+2025-05-16 02:07:28,223 - 
+Running simulation with OptimizedPIDController...
+2025-05-16 02:07:28,228 - Time: 0.00s | Pos: -0.0000m | Error: -0.3000m | Vel: -0.0012m/s
+2025-05-16 02:07:28,229 - P term: -0.2100 | I term: 0.0471 | D term: 0.0015
+2025-05-16 02:07:28,230 - PID output: Beam angle = -0.1614 rad
+
+2025-05-16 02:07:28,234 - Time: 0.00s | Pos: -0.0000m | Error: -0.3000m | Vel: -0.0050m/s
+2025-05-16 02:07:28,235 - P term: -0.2100 | I term: 0.0464 | D term: 0.0060
+2025-05-16 02:07:28,236 - PID output: Beam angle = -0.1576 rad
+
+2025-05-16 02:07:28,242 - Time: 0.01s | Pos: -0.0001m | Error: -0.2999m | Vel: -0.0153m/s
+2025-05-16 02:07:28,243 - P term: -0.2099 | I term: 0.0456 | D term: 0.0183
+2025-05-16 02:07:28,243 - PID output: Beam angle = -0.1460 rad
+
+2025-05-16 02:07:28,248 - Time: 0.04s | Pos: -0.0009m | Error: -0.2991m | Vel: -0.0406m/s
+2025-05-16 02:07:28,248 - P term: -0.2094 | I term: 0.0448 | D term: 0.0487
+2025-05-16 02:07:28,249 - PID output: Beam angle = -0.1159 rad
+
+2025-05-16 02:07:28,255 - Time: 0.12s | Pos: -0.0057m | Error: -0.2943m | Vel: -0.0846m/s
+2025-05-16 02:07:28,257 - P term: -0.2060 | I term: 0.0435 | D term: 0.1015
+2025-05-16 02:07:28,258 - PID output: Beam angle = -0.0610 rad
+
+2025-05-16 02:07:28,264 - Time: 0.31s | Pos: -0.0263m | Error: -0.2737m | Vel: -0.1205m/s
+2025-05-16 02:07:28,264 - P term: -0.1916 | I term: 0.0407 | D term: 0.1446
+2025-05-16 02:07:28,265 - PID output: Beam angle = -0.0063 rad
+
+2025-05-16 02:07:28,269 - Time: 0.61s | Pos: -0.0623m | Error: -0.2377m | Vel: -0.1140m/s
+2025-05-16 02:07:28,270 - P term: -0.1664 | I term: 0.0367 | D term: 0.1368
+2025-05-16 02:07:28,270 - PID output: Beam angle = 0.0072 rad
+
+2025-05-16 02:07:28,276 - Time: 0.95s | Pos: -0.0986m | Error: -0.2014m | Vel: -0.0961m/s
+2025-05-16 02:07:28,277 - P term: -0.1410 | I term: 0.0329 | D term: 0.1153
+2025-05-16 02:07:28,277 - PID output: Beam angle = 0.0072 rad
+
+2025-05-16 02:07:28,280 - Time: 1.33s | Pos: -0.1315m | Error: -0.1685m | Vel: -0.0788m/s
+2025-05-16 02:07:28,281 - P term: -0.1180 | I term: 0.0293 | D term: 0.0946
+2025-05-16 02:07:28,281 - PID output: Beam angle = 0.0059 rad
+
+2025-05-16 02:07:28,287 - Time: 1.72s | Pos: -0.1593m | Error: -0.1407m | Vel: -0.0642m/s
+2025-05-16 02:07:28,288 - P term: -0.0985 | I term: 0.0263 | D term: 0.0770
+2025-05-16 02:07:28,288 - PID output: Beam angle = 0.0048 rad
+
+2025-05-16 02:07:28,294 - Time: 2.08s | Pos: -0.1805m | Error: -0.1195m | Vel: -0.0531m/s
+2025-05-16 02:07:28,294 - P term: -0.0836 | I term: 0.0238 | D term: 0.0637
+2025-05-16 02:07:28,295 - PID output: Beam angle = 0.0040 rad
+
+2025-05-16 02:07:28,299 - Time: 2.45s | Pos: -0.1981m | Error: -0.1019m | Vel: -0.0440m/s
+2025-05-16 02:07:28,299 - P term: -0.0713 | I term: 0.0218 | D term: 0.0528
+2025-05-16 02:07:28,300 - PID output: Beam angle = 0.0033 rad
+
+2025-05-16 02:07:28,306 - Time: 2.81s | Pos: -0.2128m | Error: -0.0872m | Vel: -0.0364m/s
+2025-05-16 02:07:28,310 - P term: -0.0610 | I term: 0.0200 | D term: 0.0437
+2025-05-16 02:07:28,311 - PID output: Beam angle = 0.0027 rad
+
+2025-05-16 02:07:28,315 - Time: 3.15s | Pos: -0.2240m | Error: -0.0760m | Vel: -0.0306m/s
+2025-05-16 02:07:28,315 - P term: -0.0532 | I term: 0.0186 | D term: 0.0368
+2025-05-16 02:07:28,315 - PID output: Beam angle = 0.0022 rad
+
+2025-05-16 02:07:28,319 - Time: 3.48s | Pos: -0.2335m | Error: -0.0665m | Vel: -0.0259m/s
+2025-05-16 02:07:28,320 - P term: -0.0466 | I term: 0.0174 | D term: 0.0310
+2025-05-16 02:07:28,320 - PID output: Beam angle = 0.0019 rad
+
+2025-05-16 02:07:28,326 - Time: 3.82s | Pos: -0.2414m | Error: -0.0586m | Vel: -0.0218m/s
+2025-05-16 02:07:28,326 - P term: -0.0410 | I term: 0.0164 | D term: 0.0262
+2025-05-16 02:07:28,326 - PID output: Beam angle = 0.0016 rad
+
+2025-05-16 02:07:28,331 - Time: 4.13s | Pos: -0.2476m | Error: -0.0524m | Vel: -0.0187m/s
+2025-05-16 02:07:28,331 - P term: -0.0367 | I term: 0.0155 | D term: 0.0225
+2025-05-16 02:07:28,331 - PID output: Beam angle = 0.0013 rad
+
+2025-05-16 02:07:28,337 - Time: 4.43s | Pos: -0.2529m | Error: -0.0471m | Vel: -0.0161m/s
+2025-05-16 02:07:28,337 - P term: -0.0330 | I term: 0.0147 | D term: 0.0194
+2025-05-16 02:07:28,337 - PID output: Beam angle = 0.0011 rad
+
+2025-05-16 02:07:28,343 - Time: 4.73s | Pos: -0.2574m | Error: -0.0426m | Vel: -0.0139m/s
+2025-05-16 02:07:28,343 - P term: -0.0298 | I term: 0.0140 | D term: 0.0167
+2025-05-16 02:07:28,344 - PID output: Beam angle = 0.0010 rad
+
+2025-05-16 02:07:28,346 - Time: 5.00s | Pos: -0.2610m | Error: -0.0390m | Vel: -0.0122m/s
+2025-05-16 02:07:28,347 - P term: -0.0273 | I term: 0.0135 | D term: 0.0147
+2025-05-16 02:07:28,347 - PID output: Beam angle = 0.0008 rad
+
+2025-05-16 02:07:28,349 - Time: 0.49s | Pos: -0.0486m | Error: -0.2514m | Vel: -0.1193m/s
+2025-05-16 02:07:28,349 - P term: -0.1760 | I term: 0.0066 | D term: 0.1431
+2025-05-16 02:07:28,350 - PID output: Beam angle = -0.0262 rad
+
+2025-05-16 02:07:28,351 - Time: 0.99s | Pos: -0.1021m | Error: -0.1979m | Vel: -0.0942m/s
+2025-05-16 02:07:28,351 - P term: -0.1385 | I term: 0.0010 | D term: 0.1131
+2025-05-16 02:07:28,351 - PID output: Beam angle = -0.0244 rad
+
+2025-05-16 02:07:28,353 - Time: 1.49s | Pos: -0.1436m | Error: -0.1564m | Vel: -0.0725m/s
+2025-05-16 02:07:28,353 - P term: -0.1095 | I term: -0.0034 | D term: 0.0870
+2025-05-16 02:07:28,353 - PID output: Beam angle = -0.0259 rad
+
+2025-05-16 02:07:28,355 - Time: 1.99s | Pos: -0.1754m | Error: -0.1246m | Vel: -0.0558m/s
+2025-05-16 02:07:28,355 - P term: -0.0872 | I term: -0.0068 | D term: 0.0669
+2025-05-16 02:07:28,356 - PID output: Beam angle = -0.0271 rad
+
+2025-05-16 02:07:28,358 - Time: 2.49s | Pos: -0.2000m | Error: -0.1000m | Vel: -0.0430m/s
+2025-05-16 02:07:28,358 - P term: -0.0700 | I term: -0.0096 | D term: 0.0516
+2025-05-16 02:07:28,358 - PID output: Beam angle = -0.0280 rad
+
+2025-05-16 02:07:28,360 - Time: 2.99s | Pos: -0.2189m | Error: -0.0811m | Vel: -0.0332m/s
+2025-05-16 02:07:28,360 - P term: -0.0567 | I term: -0.0119 | D term: 0.0399
+2025-05-16 02:07:28,360 - PID output: Beam angle = -0.0287 rad
+
+2025-05-16 02:07:28,361 - Time: 3.49s | Pos: -0.2336m | Error: -0.0664m | Vel: -0.0258m/s
+2025-05-16 02:07:28,361 - P term: -0.0465 | I term: -0.0137 | D term: 0.0309
+2025-05-16 02:07:28,362 - PID output: Beam angle = -0.0293 rad
+
+2025-05-16 02:07:28,363 - Time: 3.99s | Pos: -0.2450m | Error: -0.0550m | Vel: -0.0201m/s
+2025-05-16 02:07:28,363 - P term: -0.0385 | I term: -0.0152 | D term: 0.0241
+2025-05-16 02:07:28,363 - PID output: Beam angle = -0.0297 rad
+
+2025-05-16 02:07:28,364 - Time: 4.49s | Pos: -0.2539m | Error: -0.0461m | Vel: -0.0157m/s
+2025-05-16 02:07:28,365 - P term: -0.0323 | I term: -0.0165 | D term: 0.0188
+2025-05-16 02:07:28,365 - PID output: Beam angle = -0.0300 rad
+
+2025-05-16 02:07:28,366 - Time: 4.99s | Pos: -0.2608m | Error: -0.0392m | Vel: -0.0123m/s
+2025-05-16 02:07:28,366 - P term: -0.0274 | I term: -0.0175 | D term: 0.0148
+2025-05-16 02:07:28,367 - PID output: Beam angle = -0.0302 rad
+
+2025-05-16 02:07:28,368 - 
+Performance Metrics:
+2025-05-16 02:07:28,368 - Settling Time: 4.990 s
+2025-05-16 02:07:28,368 - Overshoot: 0.00%
+2025-05-16 02:07:28,368 - Steady-State Error: 0.039154 m
+2025-05-16 02:07:30,475 - 
+=== Test Case: Distant With Velocity ===
+2025-05-16 02:07:30,476 - 
+Running simulation with ImprovedFuzzyController...
+2025-05-16 02:07:31,202 - Time: 0.22s | Pos: 0.6199m | Error: -0.8199m | Vel: -0.5135m/s
+2025-05-16 02:07:31,203 - Scaled Error: -1.0000 | Scaled dError: 0.6419
+2025-05-16 02:07:31,224 - Control output: Beam angle = -0.1921 rad
+
+2025-05-16 02:07:32,062 - Time: 0.65s | Pos: 0.2795m | Error: -0.4795m | Vel: -1.0515m/s
+2025-05-16 02:07:32,063 - Scaled Error: -0.9590 | Scaled dError: 1.0000
+2025-05-16 02:07:32,090 - Control output: Beam angle = -0.1743 rad
+
+2025-05-16 02:07:32,640 - Time: 0.97s | Pos: -0.0291m | Error: -0.1709m | Vel: -1.3117m/s
+2025-05-16 02:07:32,640 - Scaled Error: -0.3418 | Scaled dError: 1.0000
+2025-05-16 02:07:32,670 - Control output: Beam angle = 0.0424 rad
+
+2025-05-16 02:07:34,064 - Time: 1.03s | Pos: -0.0987m | Error: -0.1013m | Vel: -1.2833m/s
+2025-05-16 02:07:34,065 - Scaled Error: -0.2027 | Scaled dError: 1.0000
+2025-05-16 02:07:34,092 - Control output: Beam angle = 0.0774 rad
+
+2025-05-16 02:07:35,378 - Time: 1.56s | Pos: -0.6268m | Error: 0.4268m | Vel: -0.9633m/s
+2025-05-16 02:07:35,379 - Scaled Error: 0.8536 | Scaled dError: 1.0000
+2025-05-16 02:07:35,420 - Control output: Beam angle = 0.1477 rad
+
+2025-05-16 02:07:36,773 - Time: 2.13s | Pos: -0.9951m | Error: 0.7951m | Vel: -0.3764m/s
+2025-05-16 02:07:36,775 - Scaled Error: 1.0000 | Scaled dError: 0.4705
+2025-05-16 02:07:36,805 - Control output: Beam angle = 0.1000 rad
+
+2025-05-16 02:07:38,187 - Time: 2.42s | Pos: -1.0783m | Error: 0.8783m | Vel: -0.2177m/s
+2025-05-16 02:07:38,188 - Scaled Error: 1.0000 | Scaled dError: 0.2722
+2025-05-16 02:07:38,212 - Control output: Beam angle = 0.0617 rad
+
+2025-05-16 02:07:39,579 - Time: 2.89s | Pos: -1.1298m | Error: 0.9298m | Vel: 0.0053m/s
+2025-05-16 02:07:39,580 - Scaled Error: 1.0000 | Scaled dError: -0.0066
+2025-05-16 02:07:39,603 - Control output: Beam angle = 0.0715 rad
+
+2025-05-16 02:07:40,838 - Time: 3.49s | Pos: -1.0369m | Error: 0.8369m | Vel: 0.3036m/s
+2025-05-16 02:07:40,839 - Scaled Error: 1.0000 | Scaled dError: -0.3794
+2025-05-16 02:07:40,879 - Control output: Beam angle = 0.0621 rad
+
+2025-05-16 02:07:42,262 - Time: 3.67s | Pos: -0.9779m | Error: 0.7779m | Vel: 0.3367m/s
+2025-05-16 02:07:42,262 - Scaled Error: 1.0000 | Scaled dError: -0.4209
+2025-05-16 02:07:42,286 - Control output: Beam angle = 0.0046 rad
+
+2025-05-16 02:07:43,757 - Time: 4.20s | Pos: -0.7978m | Error: 0.5978m | Vel: 0.3384m/s
+2025-05-16 02:07:43,758 - Scaled Error: 1.0000 | Scaled dError: -0.4230
+2025-05-16 02:07:43,798 - Control output: Beam angle = -0.0000 rad
+
+2025-05-16 02:07:45,172 - Time: 4.61s | Pos: -0.6581m | Error: 0.4581m | Vel: 0.3372m/s
+2025-05-16 02:07:45,172 - Scaled Error: 0.9162 | Scaled dError: -0.4215
+2025-05-16 02:07:45,209 - Control output: Beam angle = -0.0055 rad
+
+2025-05-16 02:07:46,544 - Time: 4.88s | Pos: -0.5692m | Error: 0.3692m | Vel: 0.3245m/s
+2025-05-16 02:07:46,545 - Scaled Error: 0.7384 | Scaled dError: -0.4056
+2025-05-16 02:07:46,586 - Control output: Beam angle = -0.0053 rad
+
+2025-05-16 02:07:47,754 - Time: 0.33s | Pos: 0.5576m | Error: -0.7576m | Vel: -0.6536m/s
+2025-05-16 02:07:47,755 - Scaled Error: -1.0000 | Scaled dError: 0.8170
+2025-05-16 02:07:47,777 - Control output: Beam angle = -0.1819 rad
+
+2025-05-16 02:07:48,545 - Time: 0.83s | Pos: 0.1063m | Error: -0.3063m | Vel: -1.2626m/s
+2025-05-16 02:07:48,545 - Scaled Error: -0.6126 | Scaled dError: 1.0000
+2025-05-16 02:07:48,582 - Control output: Beam angle = -0.1703 rad
+
+2025-05-16 02:07:50,225 - Time: 1.33s | Pos: -0.3937m | Error: 0.1937m | Vel: -1.1289m/s
+2025-05-16 02:07:50,226 - Scaled Error: 0.3874 | Scaled dError: 1.0000
+2025-05-16 02:07:50,252 - Control output: Beam angle = 0.0768 rad
+
+2025-05-16 02:07:51,292 - Time: 1.83s | Pos: -0.8423m | Error: 0.6423m | Vel: -0.6555m/s
+2025-05-16 02:07:51,292 - Scaled Error: 1.0000 | Scaled dError: 0.8193
+2025-05-16 02:07:51,392 - Control output: Beam angle = 0.1599 rad
+
+2025-05-16 02:07:52,640 - Time: 2.33s | Pos: -1.0571m | Error: 0.8571m | Vel: -0.2591m/s
+2025-05-16 02:07:52,640 - Scaled Error: 1.0000 | Scaled dError: 0.3239
+2025-05-16 02:07:52,749 - Control output: Beam angle = 0.0712 rad
+
+2025-05-16 02:07:54,037 - Time: 2.83s | Pos: -1.1292m | Error: 0.9292m | Vel: -0.0255m/s
+2025-05-16 02:07:54,037 - Scaled Error: 1.0000 | Scaled dError: 0.0319
+2025-05-16 02:07:54,057 - Control output: Beam angle = 0.0707 rad
+
+2025-05-16 02:07:55,356 - Time: 3.33s | Pos: -1.0787m | Error: 0.8787m | Vel: 0.2276m/s
+2025-05-16 02:07:55,356 - Scaled Error: 1.0000 | Scaled dError: -0.2846
+2025-05-16 02:07:55,414 - Control output: Beam angle = 0.0706 rad
+
+2025-05-16 02:07:56,756 - Time: 3.83s | Pos: -0.9231m | Error: 0.7231m | Vel: 0.3383m/s
+2025-05-16 02:07:56,757 - Scaled Error: 1.0000 | Scaled dError: -0.4229
+2025-05-16 02:07:56,787 - Control output: Beam angle = 0.0002 rad
+
+2025-05-16 02:07:58,033 - Time: 4.33s | Pos: -0.7539m | Error: 0.5539m | Vel: 0.3384m/s
+2025-05-16 02:07:58,033 - Scaled Error: 1.0000 | Scaled dError: -0.4230
+2025-05-16 02:07:58,075 - Control output: Beam angle = 0.0000 rad
+
+2025-05-16 02:07:59,509 - Time: 4.83s | Pos: -0.5861m | Error: 0.3861m | Vel: 0.3266m/s
+2025-05-16 02:07:59,510 - Scaled Error: 0.7723 | Scaled dError: -0.4082
+2025-05-16 02:07:59,531 - Control output: Beam angle = -0.0062 rad
+
+2025-05-16 02:08:00,042 - 
+Performance Metrics:
+2025-05-16 02:08:00,043 - Settling Time: 4.990 s
+2025-05-16 02:08:00,044 - Overshoot: 464.93%
+2025-05-16 02:08:00,044 - Steady-State Error: 0.334358 m
+2025-05-16 02:08:15,223 - 
+Running simulation with OptimizedPIDController...
+2025-05-16 02:08:15,230 - Time: 0.05s | Pos: 0.6884m | Error: -0.8884m | Vel: -0.3073m/s
+2025-05-16 02:08:15,230 - P term: -0.6219 | I term: -0.0217 | D term: 0.3688
+2025-05-16 02:08:15,231 - PID output: Beam angle = -0.2747 rad
+
+2025-05-16 02:08:15,236 - Time: 0.25s | Pos: 0.6040m | Error: -0.8040m | Vel: -0.4738m/s
+2025-05-16 02:08:15,237 - P term: -0.5628 | I term: -0.0305 | D term: 0.5685
+2025-05-16 02:08:15,238 - PID output: Beam angle = -0.0248 rad
+
+2025-05-16 02:08:15,250 - Time: 0.60s | Pos: 0.4404m | Error: -0.6404m | Vel: -0.4355m/s
+2025-05-16 02:08:15,250 - P term: -0.4483 | I term: -0.0435 | D term: 0.5226
+2025-05-16 02:08:15,251 - PID output: Beam angle = 0.0308 rad
+
+2025-05-16 02:08:15,262 - Time: 1.03s | Pos: 0.2718m | Error: -0.4718m | Vel: -0.3419m/s
+2025-05-16 02:08:15,263 - P term: -0.3303 | I term: -0.0500 | D term: 0.4103
+2025-05-16 02:08:15,264 - PID output: Beam angle = 0.0301 rad
+
+2025-05-16 02:08:15,273 - Time: 2.13s | Pos: 0.0004m | Error: -0.2004m | Vel: -0.1715m/s
+2025-05-16 02:08:15,274 - P term: -0.1403 | I term: -0.0500 | D term: 0.2058
+2025-05-16 02:08:15,275 - PID output: Beam angle = 0.0155 rad
+
+2025-05-16 02:08:15,283 - Time: 4.03s | Pos: -0.1893m | Error: -0.0107m | Vel: -0.0518m/s
+2025-05-16 02:08:15,284 - P term: -0.0075 | I term: -0.0500 | D term: 0.0622
+2025-05-16 02:08:15,284 - PID output: Beam angle = 0.0047 rad
+
+2025-05-16 02:08:15,291 - Time: 4.47s | Pos: -0.2092m | Error: 0.0092m | Vel: -0.0391m/s
+2025-05-16 02:08:15,292 - P term: 0.0065 | I term: -0.0498 | D term: 0.0469
+2025-05-16 02:08:15,292 - PID output: Beam angle = 0.0036 rad
+
+2025-05-16 02:08:15,303 - Time: 4.80s | Pos: -0.2208m | Error: 0.0208m | Vel: -0.0314m/s
+2025-05-16 02:08:15,303 - P term: 0.0145 | I term: -0.0492 | D term: 0.0377
+2025-05-16 02:08:15,304 - PID output: Beam angle = 0.0030 rad
+
+2025-05-16 02:08:15,311 - Time: 0.33s | Pos: 0.5642m | Error: -0.7642m | Vel: -0.4784m/s
+2025-05-16 02:08:15,312 - P term: -0.5349 | I term: -0.0500 | D term: 0.5741
+2025-05-16 02:08:15,312 - PID output: Beam angle = -0.0108 rad
+
+2025-05-16 02:08:15,314 - Time: 0.83s | Pos: 0.3455m | Error: -0.5455m | Vel: -0.3854m/s
+2025-05-16 02:08:15,315 - P term: -0.3819 | I term: -0.0500 | D term: 0.4625
+2025-05-16 02:08:15,316 - PID output: Beam angle = 0.0306 rad
+
+2025-05-16 02:08:15,318 - Time: 1.33s | Pos: 0.1790m | Error: -0.3790m | Vel: -0.2841m/s
+2025-05-16 02:08:15,319 - P term: -0.2653 | I term: -0.0500 | D term: 0.3409
+2025-05-16 02:08:15,319 - PID output: Beam angle = 0.0256 rad
+
+2025-05-16 02:08:15,321 - Time: 1.83s | Pos: 0.0572m | Error: -0.2572m | Vel: -0.2073m/s
+2025-05-16 02:08:15,322 - P term: -0.1800 | I term: -0.0500 | D term: 0.2487
+2025-05-16 02:08:15,323 - PID output: Beam angle = 0.0187 rad
+
+2025-05-16 02:08:15,324 - Time: 2.33s | Pos: -0.0317m | Error: -0.1683m | Vel: -0.1512m/s
+2025-05-16 02:08:15,325 - P term: -0.1178 | I term: -0.0500 | D term: 0.1815
+2025-05-16 02:08:15,325 - PID output: Beam angle = 0.0137 rad
+
+2025-05-16 02:08:15,328 - Time: 2.83s | Pos: -0.0966m | Error: -0.1034m | Vel: -0.1103m/s
+2025-05-16 02:08:15,329 - P term: -0.0724 | I term: -0.0500 | D term: 0.1324
+2025-05-16 02:08:15,329 - PID output: Beam angle = 0.0100 rad
+
+2025-05-16 02:08:15,331 - Time: 3.33s | Pos: -0.1439m | Error: -0.0561m | Vel: -0.0805m/s
+2025-05-16 02:08:15,332 - P term: -0.0393 | I term: -0.0500 | D term: 0.0966
+2025-05-16 02:08:15,332 - PID output: Beam angle = 0.0073 rad
+
+2025-05-16 02:08:15,334 - Time: 3.83s | Pos: -0.1784m | Error: -0.0216m | Vel: -0.0587m/s
+2025-05-16 02:08:15,334 - P term: -0.0151 | I term: -0.0500 | D term: 0.0704
+2025-05-16 02:08:15,335 - PID output: Beam angle = 0.0053 rad
+
+2025-05-16 02:08:15,337 - Time: 4.33s | Pos: -0.2035m | Error: 0.0035m | Vel: -0.0427m/s
+2025-05-16 02:08:15,337 - P term: 0.0025 | I term: -0.0500 | D term: 0.0513
+2025-05-16 02:08:15,338 - PID output: Beam angle = 0.0037 rad
+
+2025-05-16 02:08:15,339 - Time: 4.83s | Pos: -0.2218m | Error: 0.0218m | Vel: -0.0307m/s
+2025-05-16 02:08:15,340 - P term: 0.0152 | I term: -0.0497 | D term: 0.0369
+2025-05-16 02:08:15,340 - PID output: Beam angle = 0.0025 rad
+
+2025-05-16 02:08:15,343 - 
+Performance Metrics:
+2025-05-16 02:08:15,343 - Settling Time: 4.990 s
+2025-05-16 02:08:15,344 - Overshoot: 13.22%
+2025-05-16 02:08:15,345 - Steady-State Error: 0.026439 m
+2025-05-16 02:08:18,236 - 
+Performance Comparison:
+2025-05-16 02:08:18,236 - Test Case             | Controller | Settling Time (s) | Overshoot (%) | Steady-State Error (m)
+2025-05-16 02:08:18,237 - -----------------------------------------------------------------------------------------------
+2025-05-16 02:08:18,238 - Standard Case         | Fuzzy      | 4.990             | 56.39         | 0.232055              
+2025-05-16 02:08:18,239 -                       | PID        | 3.690             | 5.40          | 0.027008              
+2025-05-16 02:08:18,239 - Distant Start         | Fuzzy      | 4.990             | 46.36         | 0.231818              
+2025-05-16 02:08:18,240 -                       | PID        | 4.660             | 1.07          | 0.005373              
+2025-05-16 02:08:18,241 - Initial Velocity      | Fuzzy      | 4.990             | 56.39         | 0.319577              
+2025-05-16 02:08:18,241 -                       | PID        | 3.120             | 9.05          | 0.045258              
+2025-05-16 02:08:18,242 - Negative Setpoint     | Fuzzy      | 4.990             | 164.57        | 0.007033              
+2025-05-16 02:08:18,242 -                       | PID        | 4.990             | 0.00          | 0.039154              
+2025-05-16 02:08:18,242 - Distant With Velocity | Fuzzy      | 4.990             | 464.93        | 0.334358              
+2025-05-16 02:08:18,244 -                       | PID        | 4.990             | 13.22         | 0.026439              
+2025-05-16 02:08:18,244 - -----------------------------------------------------------------------------------------------
+2025-05-16 02:08:18,246 - Average | Fuzzy | 4.990 | 157.73 | 0.224968
+2025-05-16 02:08:18,246 -  | PID | 4.290 | 5.75 | 0.028646
+2025-05-16 02:08:18,276 - Results saved to results/controller_results_20250516_020818.csv
+2025-05-16 02:08:18,461 - MovieWriter ffmpeg unavailable; using Pillow instead.
+2025-05-16 02:08:18,461 - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-16 02:08:38,135 - Could not save animation: unknown file extension: .mp4
+2025-05-16 02:08:38,136 - You may need to install ffmpeg to save animations.
+2025-05-16 02:08:38,400 - MovieWriter ffmpeg unavailable; using Pillow instead.
+2025-05-16 02:08:38,401 - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-16 02:09:17,464 - Could not save animation: unknown file extension: .mp4
+2025-05-16 02:09:17,464 - You may need to install ffmpeg to save animations.
+2025-05-16 02:09:17,624 - 
+Testing complete. Results and animations saved to the 'results' directory.
