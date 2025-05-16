@@ -5,6 +5,7 @@ import numpy as np
 import pyswarms as ps
 from tqdm import tqdm
 from bbs import BallAndBeamSystem, EnhancedFuzzyController, compute_metrics
+from test_fuzzy import print_membership
 
 
 class TunableFuzzyController(EnhancedFuzzyController):
@@ -16,40 +17,51 @@ class TunableFuzzyController(EnhancedFuzzyController):
         self.angle = ctrl.Consequent(np.linspace(-0.4, 0.4, 1000), 'angle')
 
     def set_membership_params(self, params):
-        # Unpack parameters
-        (e_NL_left, e_NL_peak, e_ZE_peak, e_PL_peak, e_PL_right,
-         de_NL_left, de_NL_peak, de_ZE_peak, de_PL_peak, de_PL_right,
-         o_NL_left, o_NL_peak, o_ZE_peak, o_PL_peak, o_PL_right) = params
+        # Unpack deltas
+        e_d1, e_d2, e_d3, de_d1, de_d2, de_d3, o_d1, o_d2, o_d3 = np.abs(params)
 
-        # Ensure boundaries for universes
-        e_NL_left = min(e_NL_left, -1.0)
-        e_PL_right = max(e_PL_right, 1.0)
-        de_NL_left = min(de_NL_left, -1.0)
-        de_PL_right = max(de_PL_right, 1.0)
-        o_NL_left = min(o_NL_left, -0.4)
-        o_PL_right = max(o_PL_right, 0.4)
+        # Error
+        e_NL_left = -1.0
+        e_NL_peak = e_NL_left + e_d1
+        e_ZE_peak = e_NL_peak + e_d2
+        e_PL_peak = e_ZE_peak + e_d3
+        e_PL_right = 1.0
 
-        # Error membership functions
-        self.error['NB'] = fuzz.trimf(self.error.universe, sorted([e_NL_left, e_NL_left, e_NL_peak]))
-        self.error['NM'] = fuzz.trimf(self.error.universe, sorted([e_NL_left, e_NL_peak, e_ZE_peak]))
+        # Delta error
+        de_NL_left = -1.0
+        de_NL_peak = de_NL_left + de_d1
+        de_ZE_peak = de_NL_peak + de_d2
+        de_PL_peak = de_ZE_peak + de_d3
+        de_PL_right = 1.0
+
+        # Output
+        o_NL_left = -0.4
+        o_NL_peak = o_NL_left + o_d1
+        o_ZE_peak = o_NL_peak + o_d2
+        o_PL_peak = o_ZE_peak + o_d3
+        o_PL_right = 0.4
+
+        # Now assign membership functions (no need for checks!)
+        self.error['NB'] = fuzz.trimf(self.error.universe, [e_NL_left, e_NL_left, e_NL_peak])
+        self.error['NM'] = fuzz.trimf(self.error.universe, [e_NL_left, e_NL_peak, e_ZE_peak])
         self.error['NS'] = fuzz.trimf(self.error.universe, sorted([e_NL_peak, e_ZE_peak, 0.0]))
-        self.error['ZE'] = fuzz.trimf(self.error.universe, sorted([e_NL_peak, e_ZE_peak, e_PL_peak]))
+        self.error['ZE'] = fuzz.trimf(self.error.universe, [e_NL_peak, e_ZE_peak, e_PL_peak])
         self.error['PS'] = fuzz.trimf(self.error.universe, sorted([0.0, e_ZE_peak, e_PL_peak]))
         self.error['PM'] = fuzz.trimf(self.error.universe, sorted([e_ZE_peak, e_PL_peak, e_PL_right]))
         self.error['PB'] = fuzz.trimf(self.error.universe, sorted([e_PL_peak, e_PL_right, e_PL_right]))
 
         # Delta-error membership functions
-        self.d_error['NB'] = fuzz.trimf(self.d_error.universe, sorted([de_NL_left, de_NL_left, de_NL_peak]))
-        self.d_error['NM'] = fuzz.trimf(self.d_error.universe, sorted([de_NL_left, de_NL_peak, de_ZE_peak]))
+        self.d_error['NB'] = fuzz.trimf(self.d_error.universe, [de_NL_left, de_NL_left, de_NL_peak])
+        self.d_error['NM'] = fuzz.trimf(self.d_error.universe, [de_NL_left, de_NL_peak, de_ZE_peak])
         self.d_error['NS'] = fuzz.trimf(self.d_error.universe, sorted([de_NL_peak, de_ZE_peak, 0.0]))
-        self.d_error['ZE'] = fuzz.trimf(self.d_error.universe, sorted([de_NL_peak, de_ZE_peak, de_PL_peak]))
+        self.d_error['ZE'] = fuzz.trimf(self.d_error.universe, [de_NL_peak, de_ZE_peak, de_PL_peak])
         self.d_error['PS'] = fuzz.trimf(self.d_error.universe, sorted([0.0, de_ZE_peak, de_PL_peak]))
         self.d_error['PM'] = fuzz.trimf(self.d_error.universe, sorted([de_ZE_peak, de_PL_peak, de_PL_right]))
         self.d_error['PB'] = fuzz.trimf(self.d_error.universe, sorted([de_PL_peak, de_PL_right, de_PL_right]))
 
         # Output membership functions
-        self.angle['NB'] = fuzz.trimf(self.angle.universe, sorted([o_NL_left, o_NL_left, o_NL_peak]))
-        self.angle['NM'] = fuzz.trimf(self.angle.universe, sorted([o_NL_left, o_NL_peak, o_ZE_peak]))
+        self.angle['NB'] = fuzz.trimf(self.angle.universe, [o_NL_left, o_NL_left, o_NL_peak])
+        self.angle['NM'] = fuzz.trimf(self.angle.universe, [o_NL_left, o_NL_peak, o_ZE_peak])
         self.angle['NS'] = fuzz.trimf(self.angle.universe, sorted([o_NL_peak, o_ZE_peak, 0.0]))
         self.angle['ZE'] = fuzz.trimf(self.angle.universe, sorted([o_NL_peak, o_ZE_peak, o_PL_peak]))
         self.angle['PS'] = fuzz.trimf(self.angle.universe, sorted([0.0, o_ZE_peak, o_PL_peak]))
@@ -143,12 +155,55 @@ TEST_CASES = [
 ]
 
 # Parameter Vector and Initial Guess
-NUM_PARAMS = 15
+NUM_PARAMS = 9  # 3 for error, 3 for delta_error, 3 for output
 initial_params = np.array([
-    -1.0, -1.0, 0.0, 1.0, 1.0,
-    -1.0, -1.0, 0.0, 1.0, 1.0,
-    -0.4, -0.4, 0.0, 0.4, 0.4
+    0.3, 0.5, 0.7,   # error deltas (all positive, sum < 2.0)
+    0.3, 0.5, 0.7,   # delta_error deltas
+    0.1, 0.2, 0.3    # output deltas (sum < 0.8)
 ])
+
+# Error membership function bounds
+error_bounds = [
+    (-1.0, -1.0),    # e_NL_left fixed at -1.0
+    (-1.0,  0.0),    # e_NL_peak between -1.0 and 0.0
+    (-0.5,  0.5),    # e_ZE_peak around the middle
+    ( 0.0,  1.0),    # e_PL_peak between 0.0 and +1.0
+    ( 1.0,  1.0),    # e_PL_right fixed at +1.0
+]
+
+# Delta-error membership function bounds
+delta_error_bounds = [
+    (-1.0, -1.0),    # de_NL_left fixed at -1.0
+    (-1.0,  0.0),    # de_NL_peak between -1.0 and 0.0
+    (-0.5,  0.5),    # de_ZE_peak around the middle
+    ( 0.0,  1.0),    # de_PL_peak between 0.0 and +1.0
+    ( 1.0,  1.0),    # de_PL_right fixed at +1.0
+]
+
+# Output angle membership function bounds
+output_bounds = [
+    (-0.4, -0.4),    # o_NL_left fixed at -0.4
+    (-0.4,  0.0),    # o_NL_peak between -0.4 and 0.0
+    (-0.2,  0.2),    # o_ZE_peak around the middle
+    ( 0.0,  0.4),    # o_PL_peak between 0.0 and +0.4
+    ( 0.4,  0.4),    # o_PL_right fixed at +0.4
+]
+
+# Combine all bounds
+bounds = error_bounds + delta_error_bounds + output_bounds
+
+lower_bounds = np.array([b[0] for b in bounds])
+upper_bounds = np.array([b[1] for b in bounds])
+bounds_tuple = (lower_bounds, upper_bounds)
+
+# Each delta must be > 0 and sum to less than the universe width
+error_delta_bounds = [(0.01, 1.0), (0.01, 1.0), (0.01, 1.0)]
+delta_error_delta_bounds = [(0.01, 1.0), (0.01, 1.0), (0.01, 1.0)]
+output_delta_bounds = [(0.01, 0.4), (0.01, 0.4), (0.01, 0.4)]
+bounds = error_delta_bounds + delta_error_delta_bounds + output_delta_bounds
+lower_bounds = np.array([b[0] for b in bounds])
+upper_bounds = np.array([b[1] for b in bounds])
+bounds_tuple = (lower_bounds, upper_bounds)
 
 # Objective Function
 def objective(params: np.ndarray) -> float:
@@ -177,22 +232,17 @@ if __name__ == "__main__":
     init_cost = objective(initial_params)
     print(f"Initial cost: {init_cost:.3f}")
 
-    # Define bounds matching universes
-    lower_bounds = np.array([-1.0]*5 + [-1.0]*5 + [-0.4]*5)
-    upper_bounds = np.array([ 1.0]*5 + [ 1.0]*5 + [ 0.4]*5)
-    bounds = (lower_bounds, upper_bounds)
-
     # PSO options
     options = {'c1': 1.5, 'c2': 1.5, 'w': 0.5}
     optimizer = ps.single.GlobalBestPSO(
-        n_particles=30,
+        n_particles=10,
         dimensions=NUM_PARAMS,
         options=options,
-        bounds=bounds,
+        bounds=bounds_tuple,
     )
 
     # Run optimization
-    best_cost, best_params = optimizer.optimize(pso_objective, iters=5, verbose=True, n_processes=6)
+    best_cost, best_params = optimizer.optimize(pso_objective, iters=20, verbose=True, n_processes=6)
     print(f"PSO completed. Best Cost: {best_cost:.3f}")
     print(f"Best Parameters: {np.round(best_params,3)}")
-
+    print_membership(best_params)

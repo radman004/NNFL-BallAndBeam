@@ -123,11 +123,40 @@ class EnhancedFuzzyController:
         d_error = ctrl.Antecedent(np.linspace(-1, 1, 1000), 'delta_error')
         angle = ctrl.Consequent(np.linspace(-0.4, 0.4, 1000), 'angle')
 
-        params =  [ 0.602,  0.951, -0.173, -0.575,  0.673, -0.841, 0.914, -0.364, -0.46, 0.138, -0.317, -0.298,  0.077, -0.302, 0.073]
+        # Example delta params (replace with your optimized values) #this is in the PPT
+        params = [0.536, 0.731, 0.274,
+                  0.453, 0.453, 0.833,
+                  0.238, 0.332, 0.121]   # output deltas
 
-        e_NL_left, e_NL_peak, e_ZE_peak, e_PL_peak, e_PL_right, \
-        de_NL_left, de_NL_peak, de_ZE_peak, de_PL_peak, de_PL_right, \
-        o_NL_left, o_NL_peak, o_ZE_peak, o_PL_peak, o_PL_right = params
+        # params = [0.858499,  0.67622863, 0.70570184, 
+        #           0.10641805, 0.15648024, 0.41595954, 
+        #           0.05871308, 0.27771335, 0.33841477]
+        
+        # params = [0.60427101, 0.8445694, 0.44572677,
+        #           0.38558913, 0.68975723, 0.63711142,
+        #           0.22214651, 0.07763466, 0.3640821 ]
+
+        # Reconstruct triangle points for error
+        e_d1, e_d2, e_d3, de_d1, de_d2, de_d3, o_d1, o_d2, o_d3 = np.abs(params)
+
+        e_NL_left = -1.0
+        e_NL_peak = e_NL_left + e_d1
+        e_ZE_peak = e_NL_peak + e_d2
+        e_PL_peak = e_ZE_peak + e_d3
+        e_PL_right = 1.0
+
+        de_NL_left = -1.0
+        de_NL_peak = de_NL_left + de_d1
+        de_ZE_peak = de_NL_peak + de_d2
+        de_PL_peak = de_ZE_peak + de_d3
+        de_PL_right = 1.0
+
+        o_NL_left = -0.4
+        o_NL_peak = o_NL_left + o_d1
+        o_ZE_peak = o_NL_peak + o_d2
+        o_PL_peak = o_ZE_peak + o_d3
+        o_PL_right = 0.4
+
         # # Enhanced membership functions with better overlap and finer control
         # # Error membership functions
         # error['NB'] = fuzz.trimf(error.universe, [-1.0, -1.0, -0.5])     # Negative Big
